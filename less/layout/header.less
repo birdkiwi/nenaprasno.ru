@@ -1,0 +1,86 @@
+.main-header {
+  padding-top: 20px;
+
+  & > .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+.main-header-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.main-header-contacts {
+  margin-right: 40px;
+}
+
+.main-header-contacts-phone {
+  display: block;
+  color: #2B2929;
+  font-size: 21px;
+  margin-bottom: 5px;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    background: url('../images/icon-phone.svg');
+    width: 16px;
+    height: 17px;
+  }
+}
+
+.main-header-contacts-email {
+
+}
+
+.main-header-logo {
+  margin-bottom: 20px;
+}
+
+.main-header-right {
+  margin-bottom: 20px;
+}
+
+.main-header-nav {
+  background-color: #0B65A0;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.16);
+
+  & > .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.main-header-nav-list {
+  font-size: 0;
+  .ul-reset;
+
+  & > li {
+    font-size: 14px;
+    display: inline-block;
+
+    & > a {
+      display: block;
+      color: #fff;
+      font-weight: 600;
+      padding: 13px 24px;
+      border-left: 1px solid #327DAF;
+      transition: background-color 200ms;
+
+      &:hover {
+        background-color: #298DCF;
+        transition: background-color 200ms;
+      }
+    }
+
+    &.active {
+      & > a {
+        background-color: #298DCF;
+      }
+    }
+  }
+}

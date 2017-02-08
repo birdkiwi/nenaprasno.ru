@@ -1,0 +1,47 @@
+.reports-block {
+
+}
+
+.reports-block-item {
+  display: block;
+  background-color: #F8F3F2;
+  padding: 20px;
+  border-radius: 3px;
+  color: #222222;
+  margin-bottom: 1rem;
+
+  &:hover,
+  &.active {
+    background-color: #0B65A0;
+    color: #fff;
+    transition: all 200ms;
+
+    .reports-block-item-icon {
+      svg {
+        * {
+          fill: #fff;
+          transition: all 200ms;
+        }
+      }
+    }
+  }
+}
+
+.reports-block-item-icon {
+  margin-bottom: 15px;
+
+  svg {
+    * {
+      transition: all 200ms;
+    }
+  }
+}
+
+.reports-block-item-title {
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.reports-block-item-date {
+  font-size: 13px;
+}
