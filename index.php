@@ -105,7 +105,7 @@
 
             <div class="about-fund-blocks">
                 <div class="about-fund-blocks-col">
-                    <div class="about-fund-block about-fund-block-1">
+                    <div class="about-fund-block b-green">
                         <div class="about-fund-block-icon">
                             <?php include "images/icon-about-fund-1.svg"; ?>
                         </div>
@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <div class="about-fund-blocks-col">
-                    <div class="about-fund-block about-fund-block-2">
+                    <div class="about-fund-block b-blue">
                         <div class="about-fund-block-icon">
                             <?php include "images/icon-about-fund-2.svg"; ?>
                         </div>
@@ -134,7 +134,7 @@
                     </div>
                 </div>
                 <div class="about-fund-blocks-col">
-                    <div class="about-fund-block about-fund-block-3">
+                    <div class="about-fund-block b-orange">
                         <div class="about-fund-block-icon">
                             <?php include "images/icon-about-fund-3.svg"; ?>
                         </div>
@@ -148,7 +148,7 @@
                     </div>
                 </div>
                 <div class="about-fund-blocks-col">
-                    <div class="about-fund-block about-fund-block-4">
+                    <div class="about-fund-block b-red">
                         <div class="about-fund-block-icon">
                             <?php include "images/icon-about-fund-4.svg"; ?>
                         </div>
