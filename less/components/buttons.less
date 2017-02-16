@@ -1,9 +1,10 @@
 .button {
   display: inline-block;
   text-align: center;
-  border: none;
-  padding: 13px 25px;
+  font-size: 14px;
+  padding: 12px 25px;
   font-weight: bold;
+  border: 1px solid;
   transition: background-color 200ms, color 200ms;
 
   &:hover {
@@ -11,27 +12,73 @@
   }
 }
 
+.button-small {
+  font-size: 12px;
+  padding: 9px 18px;
+}
+
+.button-xsmall {
+  font-size: 12px;
+  padding: 6px 14px;
+}
+
 .button-round {
   border-radius: 3px;
 }
 
 .button-blue {
-  background-color: #fff;
-  color: #298DCF;
-  border: 2px solid #298DCF;
+  background-color: @c-blue-2;
+  color: #fff;
+  border-color: @c-blue-2;
 
   &:hover {
-    background-color: #298DCF;
+    background-color: lighten(@c-blue-2, 10%);
+    color: #fff;
+  }
+}
+
+.button-blue-hollow {
+  background-color: transparent;
+  color: #00ADF1;
+  border-color: #00ADF1;
+
+  &:hover {
+    background-color: #00ADF1;
+    color: #fff;
+  }
+}
+
+.button-gray-hollow {
+  background-color: transparent;
+  color: #918F8E;
+  border-color: #CFCECB;
+
+  &:hover {
+    background-color: #CFCECB;
     color: #fff;
   }
 }
 
 .button-green {
   background-color: #51C655;
+  border-color: #51C655;
   color: #fff;
 
   &:hover {
     color: #fff;
-    background-color: #6ACE6E;
+    background-color: lighten(#51C655, 10%);
   }
 }
+
+.button-orange {
+  background-color: @c-orange;
+  border-color: @c-orange;
+  color: #fff;
+
+  &:hover {
+    color: #fff;
+    background-color: lighten(@c-orange, 10%);
+    border-color: lighten(@c-orange, 10%);
+  }
+}
+

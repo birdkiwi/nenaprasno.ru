@@ -7,44 +7,9 @@
     <link rel="stylesheet" href="build/style.min.css">
 </head>
 <body>
-<header class="main-header">
-    <div class="wrapper">
-        <div class="main-header-logo">
-            <a href="#">
-                <img src="images/logo.png" alt="Фонд профилактики рака. Живу не напрасно.">
-            </a>
-        </div>
-        <div class="main-header-right">
-            <div class="main-header-contacts">
-                <a href="#"class="main-header-contacts-phone">
-                    +7 812 316-34-34
-                </a>
-                <a href="mailto:foundmain@gmail.com" class="main-header-contacts-email">
-                    foundmain@gmail.com
-                </a>
-            </div>
-            <div class="main-header-buttons">
-                <a href="#" class="button button-blue button-round">Вход / Регистрация</a>
-            </div>
-        </div>
-    </div>
-    <nav class="main-header-nav">
-        <div class="wrapper">
-            <ul class="main-header-nav-list">
-                <li><a href="#">Фонд</a></li>
-                <li><a href="#">Проекты</a></li>
-                <li><a href="#">Как помочь?</a></li>
-                <li><a href="#">Публикации</a></li>
-                <li><a href="#">Партнеры</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
 
-            <div class="main-header-nav-right">
-                <a href="#" class="button button-green">Помочь прямо сейчас</a>
-            </div>
-        </div>
-    </nav>
-</header>
+<?php include "blocks/header.php"; ?>
+
 <main class="main-content">
     <section class="header-slider-wrapper">
         <div class="header-slider js-header-slider">
@@ -90,14 +55,14 @@
                     о необходимых
                     обследованиях
                 </div>
-                <div class="header-slider-about-column" style="align-self: center;">
-                    <a href="#" class="button button-green button-round">Пройти тест</a>
+                <div class="header-slider-about-column text-center">
+                    <a href="#" class="button button-orange button-round">Пройти тест</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="about-fund">
+    <section class="about-fund b-gray">
         <div class="wrapper">
             <div class="block-title">
                 <span>О фонде</span>
@@ -166,86 +131,117 @@
         </div>
     </section>
 
-    <section class="projects-block">
+    <section class="projects-block p-t-xxl p-b-xxl b-gray">
         <div class="wrapper">
             <div class="block-title">
                 <span>Проекты</span>
             </div>
 
             <div class="projects-block-items">
-                <div class="projects-block-items-row">
+                <div class="projects-block-items-col">
                     <div class="projects-block-item">
-                        <div class="projects-block-item-content">
+                        <div class="projects-block-item-image">
+                            <img src="http://placekitten.com/370/220" width="370" height="220" alt="">
+                        </div>
+                        <div class="projects-block-item-padding">
                             <div class="projects-block-item-title">
                                 Ранее выявление рака
                             </div>
-                            <div class="projects-block-item-text">
+                            <div class="projects-block-item-desc">
                                 В понимании многих (и даже большинства врачей) достаточно просто массово заниматься ранним выявлением рака - это и будет скрининг рака. Это вовсе не так, и история развития профилактики рака в России тому живое подтверждение…
                             </div>
                         </div>
-                        <div class="projects-block-item-image">
-                            <div class="projects-block-item-image-wrap">
-                                <img src="http://placekitten.com/140/140" width="140" height="140" alt="">
+                        <div class="projects-block-item-donate">
+                            <div class="projects-block-item-donate-bar">
+                                <div class="projects-block-item-donate-bar-active" style="width: 20%;"></div>
+                            </div>
+                            <div class="projects-block-item-donate-collected">
+                                <div class="projects-block-item-donate-title">Собрано</div>
+                                <b>367 533 Р.</b>
+                            </div>
+                            <div class="projects-block-item-donate-goal">
+                                <div class="projects-block-item-donate-title">Цель проекта</div>
+                                <b>1 000 000 Р.</b>
+                            </div>
+                            <div class="projects-block-item-donate-button">
+                                <a href="#" class="button button-small button-round button-orange">Поддержать</a>
                             </div>
                         </div>
                     </div>
-                    <div class="projects-block-item">
-                    <div class="projects-block-item-content">
-                        <div class="projects-block-item-title">
-                            Общее развитие профилактики рака
-                        </div>
-                        <div class="projects-block-item-text">
-                            В понимании многих (и даже большинства врачей) достаточно просто массово заниматься ранним выявлением рака - это и будет скрининг рака Это вовсе не так, и история развития…
-                        </div>
-                    </div>
-                    <div class="projects-block-item-image">
-                        <div class="projects-block-item-image-wrap">
-                            <img src="http://placekitten.com/140/140" width="140" height="140" alt="">
-                        </div>
-                    </div>
                 </div>
-                </div>
-                <div class="projects-block-items-row">
+
+                <div class="projects-block-items-col">
                     <div class="projects-block-item">
-                        <div class="projects-block-item-content">
+                        <div class="projects-block-item-image">
+                            <img src="http://placekitten.com/370/220" width="370" height="220" alt="">
+                        </div>
+                        <div class="projects-block-item-padding">
                             <div class="projects-block-item-title">
-                                Поддержка проф. образования
+                                Ранее выявление рака
                             </div>
-                            <div class="projects-block-item-text">
-                                В понимании многих (и даже большинства врачей) достаточно просто массово заниматься ранним выявлением рака - это и будет скрининг рака. Это вовсе не так, и история развития профилактики рака в России тому живое подтверждение.
-                            </div>
-                        </div>
-                        <div class="projects-block-item-image">
-                            <div class="projects-block-item-image-wrap">
-                                <img src="http://placekitten.com/140/140" width="140" height="140" alt="">
+                            <div class="projects-block-item-desc">
+                                В понимании многих (и даже большинства врачей) достаточно просто массово заниматься ранним выявлением рака - это и будет скрининг рака. Это вовсе не так, и история развития профилактики рака в России тому живое подтверждение…
                             </div>
                         </div>
-                    </div>
-                    <div class="projects-block-item">
-                    <div class="projects-block-item-content">
-                        <div class="projects-block-item-title">
-                            Онлайн проекты
-                        </div>
-                        <div class="projects-block-item-text">
-                            В понимании многих (и даже большинства врачей) достаточно просто массово заниматься ранним выявлением рака - это и будет скрининг рака. Это вовсе не так, и история развития профилактики рака в России тому живое подтверждение.
-                        </div>
-                    </div>
-                    <div class="projects-block-item-image">
-                        <div class="projects-block-item-image-wrap">
-                            <img src="http://placekitten.com/140/140" width="140" height="140" alt="">
+                        <div class="projects-block-item-donate">
+                            <div class="projects-block-item-donate-bar">
+                                <div class="projects-block-item-donate-bar-active" style="width: 20%;"></div>
+                            </div>
+                            <div class="projects-block-item-donate-collected">
+                                <div class="projects-block-item-donate-title">Собрано</div>
+                                <b>367 533 Р.</b>
+                            </div>
+                            <div class="projects-block-item-donate-goal">
+                                <div class="projects-block-item-donate-title">Цель проекта</div>
+                                <b>1 000 000 Р.</b>
+                            </div>
+                            <div class="projects-block-item-donate-button">
+                                <a href="#" class="button button-small button-round button-orange">Поддержать</a>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="projects-block-items-col">
+                    <div class="projects-block-item">
+                        <div class="projects-block-item-image">
+                            <img src="http://placekitten.com/370/220" width="370" height="220" alt="">
+                        </div>
+                        <div class="projects-block-item-padding">
+                            <div class="projects-block-item-title">
+                                Ранее выявление рака
+                            </div>
+                            <div class="projects-block-item-desc">
+                                В понимании многих (и даже большинства врачей) достаточно просто массово заниматься ранним выявлением рака - это и будет скрининг рака. Это вовсе не так, и история развития профилактики рака в России тому живое подтверждение…
+                            </div>
+                        </div>
+                        <div class="projects-block-item-donate">
+                            <div class="projects-block-item-donate-bar">
+                                <div class="projects-block-item-donate-bar-active" style="width: 20%;"></div>
+                            </div>
+                            <div class="projects-block-item-donate-collected">
+                                <div class="projects-block-item-donate-title">Собрано</div>
+                                <b>367 533 Р.</b>
+                            </div>
+                            <div class="projects-block-item-donate-goal">
+                                <div class="projects-block-item-donate-title">Цель проекта</div>
+                                <b>1 000 000 Р.</b>
+                            </div>
+                            <div class="projects-block-item-donate-button">
+                                <a href="#" class="button button-small button-round button-orange">Поддержать</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="project-block-load-more">
-                <a href="#" class="button button-blue button-round" style="width: 240px;">Ещё проекты</a>
+                <a href="#" class="button button-gray-hollow button-round" style="width: 240px;">Ещё проекты</a>
             </div>
         </div>
     </section>
 
-    <section class="news-block b-gray">
+    <section class="news-block p-t-xxl p-b-xxl b-gray">
         <div class="wrapper">
             <div class="block-title">
                 <span>Новости и события</span>
@@ -315,11 +311,11 @@
             </div>
 
             <div class="project-block-load-more">
-                <a href="#" class="button button-blue button-round" style="width: 240px;">Ещё новости и события</a>
+                <a href="#" class="button button-gray-hollow button-round" style="width: 240px;">Ещё новости и события</a>
             </div>
         </div>
     </section>
-    <section class="publications-block">
+    <section class="publications-block p-t-xxl p-b-xxl">
         <div class="wrapper">
             <div class="block-title">
                 <span>Публикации</span>
@@ -545,11 +541,11 @@
             </div>
 
             <div class="publications-block-load-more">
-                <a href="#" class="button button-blue button-round" style="width: 240px;">Все публикации</a>
+                <a href="#" class="button button-gray-hollow button-round" style="width: 240px;">Все публикации</a>
             </div>
         </div>
     </section>
-    <section class="cancer-directory-block">
+    <section class="cancer-directory-block p-t-xl p-b-xl">
         <div class="wrapper">
             <div class="cancer-directory-block-title">
                 Справочник по видам рака
@@ -765,175 +761,11 @@
             </div>
 
             <div class="cancer-directory-block-load-more">
-                <a href="#" class="button button-blue button-round" style="width: 240px;">Подробнее</a>
+                <a href="#" class="button button-gray-hollow button-round" style="width: 240px;">Подробнее</a>
             </div>
         </div>
     </section>
-    <section class="donate-block b-gray">
-        <div class="wrapper">
-            <div class="block-title">
-                <span>Помочь прямо сейчас</span>
-            </div>
-
-            <div class="donate-block-row">
-                <form action="#" method="POST" class="donate-block-form">
-                    <div class="donate-block-form-tabs">
-                        <a href="#donate-block-internet" data-toggle data-toggle-group="donate-block-type" class="donate-block-form-tabs-item active">
-                            <div class="donate-block-form-tabs-item-title">
-                                Через интернет
-                            </div>
-                            Банковской картой или через интернет
-                        </a>
-                        <a href="#donate-block-sberbank" data-toggle data-toggle-group="donate-block-type" class="donate-block-form-tabs-item">
-                            <div class="donate-block-form-tabs-item-title">
-                                Через «Сбербанк»
-                            </div>
-                            Распечатать квитанцию и оплатить в банке
-                        </a>
-                    </div>
-                    <div id="donate-block-internet" class="donate-block-form-tab active">
-                        <div class="donate-block-form-padding">
-                            <label class="donate-block-form-label">Тип платежа</label>
-
-                            <div class="donate-block-form-payment-type">
-                                <div class="donate-block-form-custom-radio donate-block-form-payment-type-item">
-                                    <input id="donate-block-payment-type-1" type="radio" checked name="payment-type">
-                                    <label for="donate-block-payment-type-1">Разовое</label>
-                                </div>
-                                <div class="donate-block-form-custom-radio donate-block-form-payment-type-item">
-                                    <input id="donate-block-payment-type-2" type="radio" name="payment-type">
-                                    <label for="donate-block-payment-type-2">Ежемесячно</label>
-                                </div>
-                            </div>
-
-                            <label class="donate-block-form-label">Сумма пожертвования</label>
-                            <div class="donate-block-form-payment-value">
-                                <div class="row">
-                                    <div class="col-xs-4">
-                                        <div class="donate-block-form-custom-radio donate-block-form-payment-value-item">
-                                            <input id="donate-block-payment-100" type="radio" name="payment-value" value="100">
-                                            <label for="donate-block-payment-100">100 руб.</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <div class="donate-block-form-custom-radio donate-block-form-payment-value-item">
-                                            <input id="donate-block-payment-500" type="radio" name="payment-value" value="500">
-                                            <label for="donate-block-payment-500">500 руб.</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <div class="donate-block-form-custom-radio donate-block-form-payment-value-item">
-                                            <input id="donate-block-payment-1000" type="radio" name="payment-value" value="1000">
-                                            <label for="donate-block-payment-1000">1 000 руб.</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <div class="donate-block-form-custom-radio donate-block-form-payment-value-item">
-                                            <input id="donate-block-payment-2000" type="radio" name="payment-value" value="2000">
-                                            <label for="donate-block-payment-2000">2 000 руб.</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <div class="donate-block-form-custom-radio donate-block-form-payment-value-item">
-                                            <input id="donate-block-payment-5000" type="radio" name="payment-value" value="5000">
-                                            <label for="donate-block-payment-5000">5 000 руб.</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <div class="donate-block-form-custom-radio donate-block-form-payment-value-item">
-                                            <input id="donate-block-payment-10000" type="radio" name="payment-value" value="10000">
-                                            <label for="donate-block-payment-10000">10 000 руб.</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6 m-b-md">
-                                    <label class="donate-block-form-label">Другая сумма</label>
-                                    <input type="text" class="donate-block-form-input" placeholder="руб.">
-                                </div>
-                                <div class="col-xs-12 col-sm-6 m-b-md">
-                                    <label class="donate-block-form-label">Поддержать проект</label>
-                                    <div class="donate-block-form-select">
-                                        <select name="donate-type">
-                                            <option value="1">Общее пожертвование</option>
-                                            <option value="2">Общее пожертвование</option>
-                                            <option value="3">Общее пожертвование</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="m-b-md">
-                                <label class="donate-block-form-label">E-mail</label>
-                                <input type="email" class="donate-block-form-input" placeholder="example@domain.com">
-                            </div>
-
-                            <div class="donate-block-form-user">
-                                <div class="donate-block-form-user-select">
-                                    <div class="donate-block-form-user-select-item">
-                                        <input id="donate-block-user-0" type="radio" name="user-select" checked>
-                                        <label for="donate-block-user-0">Анонимно</label>
-                                    </div>
-                                    <div class="donate-block-form-user-select-item">
-                                        <input id="donate-block-user-1" type="radio" name="user-select">
-                                        <label for="donate-block-user-1">Представьтесь</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="donate-block-form-padding">
-                            <div class="row">
-                                <div class="col-xs-4">
-                                    <div class="donate-block-form-agreement">
-                                        <input id="donate-block-agreement" type="checkbox" name="agreement">
-                                        <label for="donate-block-agreement">
-                                            Согласен с <a href="#">офертой</a>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col-xs-4 text-center">
-                                    <button class="button button-green button-round donate-block-form-submit">Продолжить</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="donate-block-sberbank" class="donate-block-form-tab">
-                        <div class="donate-block-form-padding">
-                            Sber
-                        </div>
-                    </div>
-                </form>
-                <div class="donate-block-comment">
-                    <div class="donate-block-comment-title">
-                        Куда будут потрачены собранные средства?
-                    </div>
-                    <p>В 2015 году мы запустили собственный образовательный проект &mdash; «Программу подготовки молодых онкологов». Это наш ответ на ухудшающуюся ситуацию с системой образования специалистов в сфере онкологии.</p>
-
-                    <p>Ведь сейчас в России наблюдается острая нехватка квалифицированных онкологов, а на одного врача приходится порядка 500 пациентов. При этом, ежегодно от разных видов рака умирает около 500 000 человек, а число заболевших постоянно растет. Мы поставили перед собой цель &mdash; обучить и подготовить по международным стандартам новое поколение специалистов-онкологов.</p>
-
-                    <div class="donate-block-comment-author">
-                        <div class="donate-block-comment-author-photo">
-                            <div class="donate-block-comment-author-photo-wrap">
-                                <img src="http://placekitten.com/160/160" alt="">
-                            </div>
-                        </div>
-
-                        <div class="donate-block-comment-author-meta">
-                            <div class="donate-block-comment-author-meta-name">
-                                Илья Фоминцев
-                            </div>
-                            <div class="donate-block-comment-author-meta-title">
-                                Исполнительный директор «Фонда
-                                профилактики рака»
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include "blocks/donate-block.php"; ?>
 </main>
 <footer class="main-footer">
     &copy; Фонд профилактики рака, 2017

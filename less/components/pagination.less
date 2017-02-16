@@ -8,11 +8,20 @@
   height: 36px;
   line-height: 34px;
   text-align: center;
-  border: 1px solid transparent;
   border-radius: 2px;
   color: #454545;
+  transition: all 200ms;
 
   &.active {
+    color: #918F8E;
+    font-weight: bold;
+    background-color: #F7F6F3;
     border-color: #0B65A0;
+  }
+
+  &:hover {
+    color: #454545;
+    background-color: #F7F6F3;
+    transition: all 200ms;
   }
 }

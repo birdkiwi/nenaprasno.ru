@@ -7,44 +7,9 @@
     <link rel="stylesheet" href="build/style.min.css">
 </head>
 <body>
-<header class="main-header">
-    <div class="wrapper">
-        <div class="main-header-logo">
-            <a href="#">
-                <img src="images/logo.png" alt="Фонд профилактики рака. Живу не напрасно.">
-            </a>
-        </div>
-        <div class="main-header-right">
-            <div class="main-header-contacts">
-                <a href="#"class="main-header-contacts-phone">
-                    +7 812 316-34-34
-                </a>
-                <a href="mailto:foundmain@gmail.com" class="main-header-contacts-email">
-                    foundmain@gmail.com
-                </a>
-            </div>
-            <div class="main-header-buttons">
-                <a href="#" class="button button-blue button-round">Вход / Регистрация</a>
-            </div>
-        </div>
-    </div>
-    <nav class="main-header-nav">
-        <div class="wrapper">
-            <ul class="main-header-nav-list">
-                <li><a href="#">Фонд</a></li>
-                <li><a href="#">Проекты</a></li>
-                <li><a href="#">Как помочь?</a></li>
-                <li><a href="#">Публикации</a></li>
-                <li><a href="#">Партнеры</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
 
-            <div class="main-header-nav-right">
-                <a href="#" class="button button-green">Помочь прямо сейчас</a>
-            </div>
-        </div>
-    </nav>
-</header>
+<?php include "blocks/header.php"; ?>
+
 <main class="main-content">
     <div class="wrapper">
         <div class="breadcrumbs">
@@ -55,82 +20,208 @@
             </ul>
         </div>
 
-        <div class="page-title text-center">
+        <div class="page-title">
             Проекты «Фонда профилактики рака»
         </div>
 
         <div class="projects-block-items">
-            <div class="projects-block-items-row">
+            <div class="projects-block-items-col">
                 <div class="projects-block-item">
-                    <div class="projects-block-item-content">
+                    <div class="projects-block-item-image">
+                        <img src="http://placekitten.com/370/220" width="370" height="220" alt="">
+                    </div>
+                    <div class="projects-block-item-padding">
                         <div class="projects-block-item-title">
                             Ранее выявление рака
                         </div>
-                        <div class="projects-block-item-text">
+                        <div class="projects-block-item-desc">
                             В понимании многих (и даже большинства врачей) достаточно просто массово заниматься ранним выявлением рака - это и будет скрининг рака. Это вовсе не так, и история развития профилактики рака в России тому живое подтверждение…
                         </div>
                     </div>
-                    <div class="projects-block-item-image">
-                        <div class="projects-block-item-image-wrap">
-                            <img src="http://placekitten.com/140/140" width="140" height="140" alt="">
+                    <div class="projects-block-item-donate">
+                        <div class="projects-block-item-donate-bar">
+                            <div class="projects-block-item-donate-bar-active" style="width: 20%;"></div>
                         </div>
-                    </div>
-                </div>
-                <div class="projects-block-item">
-                    <div class="projects-block-item-content">
-                        <div class="projects-block-item-title">
-                            Общее развитие профилактики рака
+                        <div class="projects-block-item-donate-collected">
+                            <div class="projects-block-item-donate-title">Собрано</div>
+                            <b>367 533 Р.</b>
                         </div>
-                        <div class="projects-block-item-text">
-                            В понимании многих (и даже большинства врачей) достаточно просто массово заниматься ранним выявлением рака - это и будет скрининг рака Это вовсе не так, и история развития…
+                        <div class="projects-block-item-donate-goal">
+                            <div class="projects-block-item-donate-title">Цель проекта</div>
+                            <b>1 000 000 Р.</b>
                         </div>
-                    </div>
-                    <div class="projects-block-item-image">
-                        <div class="projects-block-item-image-wrap">
-                            <img src="http://placekitten.com/140/140" width="140" height="140" alt="">
+                        <div class="projects-block-item-donate-button">
+                            <a href="#" class="button button-small button-round button-orange">Поддержать</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="projects-block-items-row">
+
+            <div class="projects-block-items-col">
                 <div class="projects-block-item">
-                    <div class="projects-block-item-content">
+                    <div class="projects-block-item-image">
+                        <img src="http://placekitten.com/370/220" width="370" height="220" alt="">
+                    </div>
+                    <div class="projects-block-item-padding">
                         <div class="projects-block-item-title">
-                            Поддержка проф. образования
+                            Ранее выявление рака
                         </div>
-                        <div class="projects-block-item-text">
-                            В понимании многих (и даже большинства врачей) достаточно просто массово заниматься ранним выявлением рака - это и будет скрининг рака. Это вовсе не так, и история развития профилактики рака в России тому живое подтверждение.
+                        <div class="projects-block-item-desc">
+                            В понимании многих (и даже большинства врачей) достаточно просто массово заниматься ранним выявлением рака - это и будет скрининг рака. Это вовсе не так, и история развития профилактики рака в России тому живое подтверждение…
                         </div>
                     </div>
-                    <div class="projects-block-item-image">
-                        <div class="projects-block-item-image-wrap">
-                            <img src="http://placekitten.com/140/140" width="140" height="140" alt="">
+                    <div class="projects-block-item-donate">
+                        <div class="projects-block-item-donate-bar">
+                            <div class="projects-block-item-donate-bar-active" style="width: 20%;"></div>
+                        </div>
+                        <div class="projects-block-item-donate-collected">
+                            <div class="projects-block-item-donate-title">Собрано</div>
+                            <b>367 533 Р.</b>
+                        </div>
+                        <div class="projects-block-item-donate-goal">
+                            <div class="projects-block-item-donate-title">Цель проекта</div>
+                            <b>1 000 000 Р.</b>
+                        </div>
+                        <div class="projects-block-item-donate-button">
+                            <a href="#" class="button button-small button-round button-orange">Поддержать</a>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="projects-block-items-col">
                 <div class="projects-block-item">
-                    <div class="projects-block-item-content">
+                    <div class="projects-block-item-image">
+                        <img src="http://placekitten.com/370/220" width="370" height="220" alt="">
+                    </div>
+                    <div class="projects-block-item-padding">
                         <div class="projects-block-item-title">
-                            Онлайн проекты
+                            Ранее выявление рака
                         </div>
-                        <div class="projects-block-item-text">
-                            В понимании многих (и даже большинства врачей) достаточно просто массово заниматься ранним выявлением рака - это и будет скрининг рака. Это вовсе не так, и история развития профилактики рака в России тому живое подтверждение.
+                        <div class="projects-block-item-desc">
+                            В понимании многих (и даже большинства врачей) достаточно просто массово заниматься ранним выявлением рака - это и будет скрининг рака. Это вовсе не так, и история развития профилактики рака в России тому живое подтверждение…
                         </div>
                     </div>
+                    <div class="projects-block-item-donate">
+                        <div class="projects-block-item-donate-bar">
+                            <div class="projects-block-item-donate-bar-active" style="width: 20%;"></div>
+                        </div>
+                        <div class="projects-block-item-donate-collected">
+                            <div class="projects-block-item-donate-title">Собрано</div>
+                            <b>367 533 Р.</b>
+                        </div>
+                        <div class="projects-block-item-donate-goal">
+                            <div class="projects-block-item-donate-title">Цель проекта</div>
+                            <b>1 000 000 Р.</b>
+                        </div>
+                        <div class="projects-block-item-donate-button">
+                            <a href="#" class="button button-small button-round button-orange">Поддержать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-block-items-col">
+                <div class="projects-block-item">
                     <div class="projects-block-item-image">
-                        <div class="projects-block-item-image-wrap">
-                            <img src="http://placekitten.com/140/140" width="140" height="140" alt="">
+                        <img src="http://placekitten.com/370/220" width="370" height="220" alt="">
+                    </div>
+                    <div class="projects-block-item-padding">
+                        <div class="projects-block-item-title">
+                            Ранее выявление рака
+                        </div>
+                        <div class="projects-block-item-desc">
+                            В понимании многих (и даже большинства врачей) достаточно просто массово заниматься ранним выявлением рака - это и будет скрининг рака. Это вовсе не так, и история развития профилактики рака в России тому живое подтверждение…
+                        </div>
+                    </div>
+                    <div class="projects-block-item-donate">
+                        <div class="projects-block-item-donate-bar">
+                            <div class="projects-block-item-donate-bar-active" style="width: 20%;"></div>
+                        </div>
+                        <div class="projects-block-item-donate-collected">
+                            <div class="projects-block-item-donate-title">Собрано</div>
+                            <b>367 533 Р.</b>
+                        </div>
+                        <div class="projects-block-item-donate-goal">
+                            <div class="projects-block-item-donate-title">Цель проекта</div>
+                            <b>1 000 000 Р.</b>
+                        </div>
+                        <div class="projects-block-item-donate-button">
+                            <a href="#" class="button button-small button-round button-orange">Поддержать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-block-items-col">
+                <div class="projects-block-item">
+                    <div class="projects-block-item-image">
+                        <img src="http://placekitten.com/370/220" width="370" height="220" alt="">
+                    </div>
+                    <div class="projects-block-item-padding">
+                        <div class="projects-block-item-title">
+                            Ранее выявление рака
+                        </div>
+                        <div class="projects-block-item-desc">
+                            В понимании многих (и даже большинства врачей) достаточно просто массово заниматься ранним выявлением рака - это и будет скрининг рака. Это вовсе не так, и история развития профилактики рака в России тому живое подтверждение…
+                        </div>
+                    </div>
+                    <div class="projects-block-item-donate">
+                        <div class="projects-block-item-donate-bar">
+                            <div class="projects-block-item-donate-bar-active" style="width: 20%;"></div>
+                        </div>
+                        <div class="projects-block-item-donate-collected">
+                            <div class="projects-block-item-donate-title">Собрано</div>
+                            <b>367 533 Р.</b>
+                        </div>
+                        <div class="projects-block-item-donate-goal">
+                            <div class="projects-block-item-donate-title">Цель проекта</div>
+                            <b>1 000 000 Р.</b>
+                        </div>
+                        <div class="projects-block-item-donate-button">
+                            <a href="#" class="button button-small button-round button-orange">Поддержать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-block-items-col">
+                <div class="projects-block-item">
+                    <div class="projects-block-item-image">
+                        <img src="http://placekitten.com/370/220" width="370" height="220" alt="">
+                    </div>
+                    <div class="projects-block-item-padding">
+                        <div class="projects-block-item-title">
+                            Ранее выявление рака
+                        </div>
+                        <div class="projects-block-item-desc">
+                            В понимании многих (и даже большинства врачей) достаточно просто массово заниматься ранним выявлением рака - это и будет скрининг рака. Это вовсе не так, и история развития профилактики рака в России тому живое подтверждение…
+                        </div>
+                    </div>
+                    <div class="projects-block-item-donate">
+                        <div class="projects-block-item-donate-bar">
+                            <div class="projects-block-item-donate-bar-active" style="width: 20%;"></div>
+                        </div>
+                        <div class="projects-block-item-donate-collected">
+                            <div class="projects-block-item-donate-title">Собрано</div>
+                            <b>367 533 Р.</b>
+                        </div>
+                        <div class="projects-block-item-donate-goal">
+                            <div class="projects-block-item-donate-title">Цель проекта</div>
+                            <b>1 000 000 Р.</b>
+                        </div>
+                        <div class="projects-block-item-donate-button">
+                            <a href="#" class="button button-small button-round button-orange">Поддержать</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 </main>
-<footer class="main-footer">
-    &copy; Фонд профилактики рака, 2017
-</footer>
+
+<?php include "blocks/footer.php"; ?>
+
 <script src="build/scripts.js"></script>
 </body>
 </html>

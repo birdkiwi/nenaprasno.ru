@@ -1,0 +1,97 @@
+.project-preview {
+  display: flex;
+  background: #F7F6F3;
+}
+
+.project-preview-photo {
+  flex: 1 1 700px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.project-preview-content {
+  flex: 1 0 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-preview-content-padding {
+  padding: 25px 30px;
+}
+
+.project-preview-content-desc {
+  font-size: 17px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.71);
+  margin-bottom: 20px;
+}
+
+.project-preview-content-goal {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.project-preview-content-goal-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project-preview-donate {
+  margin-top: auto;
+}
+
+.project-preview-donate-padding {
+  padding: 15px 30px;
+}
+
+.project-preview-donate-title {
+  font-size: 12px;
+  color: rgba(34, 34, 34, 0.8);
+  margin-bottom: 6px;
+}
+
+.project-preview-donate-collected {
+  b {
+    font-size: 17px;
+    color: @c-blue;
+  }
+}
+
+.project-preview-donate-goal {
+  b {
+    font-size: 17px;
+    color: rgba(43, 41, 41, 0.5);
+  }
+}
+
+.project-preview-donate-bar {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+.project-preview-donate-bar-active {
+  height: 1px;
+  background-color: @c-blue;
+}
+
+.project-preview-donate-buttons {
+  font-size: 12px;
+
+  .button {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  a:not(.button) {
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    vertical-align: middle;
+
+    &:hover {
+      color: @c-blue;
+    }
+  }
+}

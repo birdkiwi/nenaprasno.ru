@@ -7,44 +7,9 @@
     <link rel="stylesheet" href="build/style.min.css">
 </head>
 <body>
-<header class="main-header">
-    <div class="wrapper">
-        <div class="main-header-logo">
-            <a href="#">
-                <img src="images/logo.png" alt="Фонд профилактики рака. Живу не напрасно.">
-            </a>
-        </div>
-        <div class="main-header-right">
-            <div class="main-header-contacts">
-                <a href="#"class="main-header-contacts-phone">
-                    +7 812 316-34-34
-                </a>
-                <a href="mailto:foundmain@gmail.com" class="main-header-contacts-email">
-                    foundmain@gmail.com
-                </a>
-            </div>
-            <div class="main-header-buttons">
-                <a href="#" class="button button-blue button-round">Вход / Регистрация</a>
-            </div>
-        </div>
-    </div>
-    <nav class="main-header-nav">
-        <div class="wrapper">
-            <ul class="main-header-nav-list">
-                <li><a href="#">Фонд</a></li>
-                <li><a href="#">Проекты</a></li>
-                <li><a href="#">Как помочь?</a></li>
-                <li><a href="#">Публикации</a></li>
-                <li><a href="#">Партнеры</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
 
-            <div class="main-header-nav-right">
-                <a href="#" class="button button-green">Помочь прямо сейчас</a>
-            </div>
-        </div>
-    </nav>
-</header>
+<?php include "blocks/header.php"; ?>
+
 <main class="main-content">
     <div class="wrapper">
         <div class="breadcrumbs">
@@ -56,43 +21,188 @@
         </div>
 
         <div class="page-title">
-            Пилотные проекты по скринингу рака
+            Высшая школа онкологии
+        </div>
+        <div class="page-subtitle">
+            Фонд профилактики рака совместно с НИИ онкологии им. Н.Н. Петрова запустили программу подготовки молодых онкологов «Высшая школа онкологии».
+        </div>
+
+        <div class="project-preview m-b-lg">
+            <div class="project-preview-photo">
+                <img src="images/tmp/project-photo-1.jpg" alt="Project">
+            </div>
+            <div class="project-preview-content">
+                <div class="project-preview-content-padding">
+                    <div class="project-preview-content-desc">
+                        Проект рассчитан на выпускников медицинских вузов и врачей-интернов россии, украины, беларуси, казахстана, Армении, Азербайджана и грузии
+                    </div>
+
+                    <div class="project-preview-content-goal">
+                        <div class="project-preview-content-goal-title">Цель проекта</div>
+                        Содействовать улучшению профессионального послевузовского образования врачей онкологов и изменению кадровой ситуации в российской онкологической службе.
+                    </div>
+                </div>
+
+                <div class="project-preview-donate">
+                    <div class="project-preview-donate-padding">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="project-preview-donate-collected">
+                                    <div class="project-preview-donate-title">Собрано</div>
+                                    <b>367 533 Р.</b>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="project-preview-donate-goal">
+                                    <div class="project-preview-donate-title">Цель проекта</div>
+                                    <b>1 000 000 Р.</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-preview-donate-bar">
+                        <div class="project-preview-donate-bar-active" style="width: 20%;"></div>
+                    </div>
+
+                    <div class="project-preview-donate-padding">
+                        <div class="project-preview-donate-buttons">
+                            <a href="#" class="button button-blue button-xsmall button-round">Помочь проекту</a>
+                            <a href="#" class="link-dotted">Поделиться</a>
+                            <a href="#" class="link-dotted">Список поддержавших</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="row">
-            <div class="col-md-3">
-                <aside class="main-sidebar">
-                    <nav class="main-sidebar-menu">
-                        <ul>
-                            <li class="main-sidebar-menu-parent">
-                                <a href="#">Миссия и цели</a>
+            <div class="col-xs-12 col-md-9">
+                <div class="article-block m-b-lg">
+                    <h2>О проекте</h2>
 
-                                <ul class="main-sidebar-menu-sub">
-                                    <li class="active">
-                                        <a href="#">Пилотные проекты по скринингу рака</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Акции по раннему выявлению рака груди</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Поддержка проф. образования</a></li>
-                            <li><a href="#">Онлайн-проекты</a></li>
-                            <li><a href="#">Общее развитие профилактики рака</a></li>
-                        </ul>
-                    </nav>
-                </aside>
+                    <p>
+                        "В 2015 году мы запустили собственный образовательный проект - "Высшую школу онкологии". Это наш ответ на ухудшающуюся  ситуацию с системой образования специалистов в сфере онкологии. Ситуация аховая, мы видим как работают и как принимают решения онкологи по всей стране и это не просто не радует - это ужасает.
+                    </p>
+                    <p>
+                        Мы поставили перед собой цель - обучить и подготовить по международным стандартам новое поколение специалистов-онкологов, которые смогут поменять ситуацию в корне и породить своих учеников.
+                    </p>
+                    <p>
+                        Участники проекта, выпускники российских медицинских вузов, получают возможность пройти бесплатное двухгодичное обучение в ординатуре НИИ Онкологии им. Н.Н.Петрова, доступ к профессиональной учебной  литературе и курсам английского языка, участвуют в мастер-классах и обучающих семинарах с крупнейшими российскими и зарубежными специалистами-онкологами. Мы готовим элиту отечественной онкологии, врачей, которые в будущем смогут внедрить любой проект в сфере онкологии в любом регионе России."
+                    </p>
+                    <p>
+                        В рамках проекта ежегодно проводится отборочный конкурс, в результате которого лучшие выпускники получают полностью оплаченное обучение в ординатуре НИИ Онкологии им. Н.Н. Петрова по специальности "онколог", множество дополнительных курсов и гарантированное трудоустройство по специальности по окончании обучения.
+                    </p>
+
+                    <h3>
+                        Ординатору в НИИ Онкологии им. Н.Н. Петрова - это:
+                    </h3>
+
+                    <ul class="ul-blue">
+                        <li>Удобные, хорошо организованные точки, где можно пройти обследование (иначе невозможно быстро обследовать население)</li>
+                        <li>Референтный центр, который занимается выделением групп риска, сбором статистики обследования, отслеживает охват населения, контролирует качество обследования (иначе невозможно поддерживать качество и охват скрининга)</li>
+                        <li>Подготовленные кадры - средний медицинский персонал и врачи (без этих людей невозможно вообще ничего)</li>
+                    </ul>
+
+                    <h3>
+                        Кроме того, участники проекта также получают возможность:
+                    </h3>
+
+                    <ul class="ul-blue">
+                        <li>Пройти стажировки у лучших российских и зарубежных специалистов</li>
+                        <li>Принять участие в журнальных клубах и мастер-классах с ведущими российскими и зарубежными специалистами</li>
+                        <li>Пользоваться новейшей международной литературой и учебными материалами по онкологии</li>
+                        <li>Пользоваться новейшей международной литературой и учебными материалами по онкологии</li>
+                    </ul>
+
+                    <p>
+                        За успехами в обучении ведется постоянный контроль. Итогом программы за 5 лет должны стать не менее 60-ти особым образом отобранных и блестяще подготовленных по международным стандартам специалистов.
+                    </p>
+
+                    <p style="font-size: 17px; font-weight: bold;">
+                        В 2015 году состоялся Первый конкурс среди студентов медицинских ВУЗов РФ, лауреатами которого стали 9 человек. В 2016 году мы провели Второй конкурс и выбрали еще девятерых студентов. Таким образом, в настоящий момент обучение по Программе подготовки молодых онкологов проходят 18 человек из разных городов России, Украины и Казахстана.
+                    </p>
+
+                    <p>
+                        <img src="images/tmp/project-photo-1.jpg" alt="">
+                    </p>
+
+                    <h3>Ординатору в НИИ Онкологии им. Н.Н. Петрова - это:</h3>
+
+                    <ul class="ul-blue">
+                        <li>
+                            Система отбора участников объективна, широкомасштабна, основана на принципах меритократии,
+                        </li>
+                        <li>
+                            Дополнительная программа профессиональной подготовки включает не только стандартную подготовку специалиста-онколога, но и многие курсы: теория принятия клинический решений, общение с пациентами, внедрение проектов в онкологии, клиническая эпидемиология и углубленная медицинская статистика, современный медицинский английский язык и многие другие курсы которые проводят мировые лидеры в этих областях из разных концов света.
+                        </li>
+                    </ul>
+
+                    <h3>Как помочь Проекту?</h3>
+
+                    <p>
+                        Вы можете стать партнером Проекта (для юридических лиц) или подписаться не регулярное пожертвование и поддержать обучение специалистов-онкологов.
+                    </p>
+
+                    <a href="#" class="button button-blue button-round">Оформить пожертвование</a>
+                </div>
             </div>
-            <div class="col-md-9">
-                text
+            <div class="col-xs-12 col-md-3">
+                <div class="news-module m-b-lg">
+                    <div class="news-module-title">Новости проекта</div>
+                    
+                    <a href="#" class="news-module-item">
+                        <div class="news-module-item-image">
+                            <img src="http://placekitten.com/180/180" width="90" height="90" alt="">
+                        </div>
+
+                        <div class="news-module-item-content">
+                            <div class="news-module-item-date">27 июля</div>
+                            <div class="news-module-item-text">
+                                Тестирование на риски рака
+                                на фестивале науки
+                                и технологий
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="news-module-item">
+                        <div class="news-module-item-content">
+                            <div class="news-module-item-date">27 июля</div>
+                            <div class="news-module-item-text">
+                                Тестирование на риски рака
+                                на фестивале науки
+                                и технологий
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="news-module-item">
+                        <div class="news-module-item-image">
+                            <img src="http://placekitten.com/180/180" width="90" height="90" alt="">
+                        </div>
+
+                        <div class="news-module-item-content">
+                            <div class="news-module-item-date">27 июля</div>
+                            <div class="news-module-item-text">
+                                Тестирование на риски рака
+                                на фестивале науки
+                                и технологий
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="news-module-read-all">Посмотреть все новости</a>
+                </div>
             </div>
         </div>
     </div>
-
 </main>
-<footer class="main-footer">
-    &copy; Фонд профилактики рака, 2017
-</footer>
+
+<?php include "blocks/donate-block.php"; ?>
+
+<?php include "blocks/footer.php"; ?>
+
 <script src="build/scripts.js"></script>
 </body>
 </html>

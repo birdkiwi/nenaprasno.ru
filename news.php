@@ -7,44 +7,9 @@
     <link rel="stylesheet" href="build/style.min.css">
 </head>
 <body>
-<header class="main-header">
-    <div class="wrapper">
-        <div class="main-header-logo">
-            <a href="#">
-                <img src="images/logo.png" alt="Фонд профилактики рака. Живу не напрасно.">
-            </a>
-        </div>
-        <div class="main-header-right">
-            <div class="main-header-contacts">
-                <a href="#"class="main-header-contacts-phone">
-                    +7 812 316-34-34
-                </a>
-                <a href="mailto:foundmain@gmail.com" class="main-header-contacts-email">
-                    foundmain@gmail.com
-                </a>
-            </div>
-            <div class="main-header-buttons">
-                <a href="#" class="button button-blue button-round">Вход / Регистрация</a>
-            </div>
-        </div>
-    </div>
-    <nav class="main-header-nav">
-        <div class="wrapper">
-            <ul class="main-header-nav-list">
-                <li><a href="#">Фонд</a></li>
-                <li><a href="#">Проекты</a></li>
-                <li><a href="#">Как помочь?</a></li>
-                <li><a href="#">Публикации</a></li>
-                <li><a href="#">Партнеры</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
 
-            <div class="main-header-nav-right">
-                <a href="#" class="button button-green">Помочь прямо сейчас</a>
-            </div>
-        </div>
-    </nav>
-</header>
+<?php include "blocks/header.php"; ?>
+
 <main class="main-content">
     <div class="wrapper">
         <div class="breadcrumbs">
@@ -80,7 +45,7 @@
             <div class="col-md-9">
                 <div class="publications-block">
                     <div class="publications-block-items">
-                        <div class="publications-block-item-large">
+                        <div class="publications-block-item-large publications-block-item-large-vert">
                             <div class="publications-block-item-large-image">
                                 <div class="publications-block-item-large-image-wrap">
                                     <a href="#">
@@ -103,7 +68,31 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="publications-block-item-large">
+                        <div class="publications-block-item-large publications-block-item-large-vert">
+                            <div class="publications-block-item-large-image">
+                                <div class="publications-block-item-large-image-wrap">
+                                    <a href="#">
+                                        <img src="http://placekitten.com/270/180" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="publications-block-item-large-content">
+                                <div class="publications-block-item-large-date">
+                                    27 июля
+                                </div>
+                                <div class="publications-block-item-large-title">
+                                    <a href="#">
+                                        Тестирование на риски рака
+                                        на фестивале науки и технологий
+                                        GEEK PICNIC
+                                    </a>
+                                </div>
+                                <div class="publications-block-item-large-text">
+                                    Тестирование на риски рака на фестивале науки и технологий
+                                </div>
+                            </div>
+                        </div>
+                        <div class="publications-block-item-large publications-block-item-large-vert">
                             <div class="publications-block-item-large-image">
                                 <div class="publications-block-item-large-image-wrap">
                                     <a href="#">
@@ -129,7 +118,7 @@
                         </div>
                     </div>
                     <div class="publications-block-items">
-                            <div class="publications-block-item-small">
+                            <div class="publications-block-item-small publications-block-item-small-1-3">
                                 <div class="publications-block-item-small-image">
                                     <div class="publications-block-item-small-image-wrap">
                                         <a href="#">
@@ -149,7 +138,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="publications-block-item-small">
+                            <div class="publications-block-item-small publications-block-item-small-1-3">
                                 <div class="publications-block-item-small-image">
                                     <div class="publications-block-item-small-image-wrap">
                                         <a href="#">
@@ -170,7 +159,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="publications-block-item-small">
+                            <div class="publications-block-item-small publications-block-item-small-1-3">
                                 <div class="publications-block-item-small-image">
                                     <div class="publications-block-item-small-image-wrap">
                                         <a href="#">
@@ -191,7 +180,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="publications-block-item-small">
+                            <div class="publications-block-item-small publications-block-item-small-1-3">
                                 <div class="publications-block-item-small-image">
                                     <div class="publications-block-item-small-image-wrap">
                                         <a href="#">
@@ -213,7 +202,7 @@
                                 </div>
                             </div>
 
-                            <div class="publications-block-item-small">
+                            <div class="publications-block-item-small publications-block-item-small-1-3">
                                 <div class="publications-block-item-small-image">
                                     <div class="publications-block-item-small-image-wrap">
                                         <a href="#">
@@ -233,7 +222,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="publications-block-item-small">
+                            <div class="publications-block-item-small publications-block-item-small-1-3">
                                 <div class="publications-block-item-small-image">
                                     <div class="publications-block-item-small-image-wrap">
                                         <a href="#">
@@ -254,7 +243,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="publications-block-item-small">
+                            <div class="publications-block-item-small publications-block-item-small-1-3">
                                 <div class="publications-block-item-small-image">
                                     <div class="publications-block-item-small-image-wrap">
                                         <a href="#">
@@ -275,7 +264,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="publications-block-item-small">
+                            <div class="publications-block-item-small publications-block-item-small-1-3">
                                 <div class="publications-block-item-small-image">
                                     <div class="publications-block-item-small-image-wrap">
                                         <a href="#">
@@ -299,7 +288,7 @@
                         </div>
                 </div>
 
-                <div class="pagination">
+                <div class="pagination m-b-lg">
                     <a href="#" class="pagination-item active">1</a>
                     <a href="#" class="pagination-item">2</a>
                     <a href="#" class="pagination-item">3</a>
@@ -310,9 +299,9 @@
     </div>
 
 </main>
-<footer class="main-footer">
-    &copy; Фонд профилактики рака, 2017
-</footer>
+
+<?php include "blocks/footer.php"; ?>
+
 <script src="build/scripts.js"></script>
 </body>
 </html>

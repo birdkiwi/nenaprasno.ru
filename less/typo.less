@@ -3,8 +3,12 @@ a {
   color: #44B8FD;
 
   &:hover {
-    color: #298DCF;
+    color: @c-blue-2;
   }
+}
+
+.link-dotted {
+  border-bottom: 1px dotted;
 }
 
 .tt-uppercase {
@@ -20,12 +24,13 @@ a {
 }
 
 .block-title {
-  text-align: center;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: bold;
   color: #2B2929;
   margin-bottom: 30px;
+}
 
+.block-title-lines {
   span {
     position: relative;
 
@@ -36,7 +41,7 @@ a {
       vertical-align: middle;
       width: 24px;
       height: 1px;
-      background-color: #298DCF;
+      background-color: @c-blue-2;
     }
 
     &::before {
@@ -54,4 +59,28 @@ a {
   font-weight: bold;
   margin-bottom: 20px;
   color: #2B2929;
+}
+
+.page-subtitle {
+  font-weight: normal;
+  font-size: 17px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.70);
+}
+
+.ul-blue {
+  .ul-reset;
+
+  li {
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background-color: @c-blue-2;
+      border-radius: 1px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+  }
 }

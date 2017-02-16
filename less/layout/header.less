@@ -46,7 +46,7 @@
 }
 
 .main-header-nav {
-  background-color: #0B65A0;
+  background-color: @c-blue;
   box-shadow: 0 2px 12px 0 rgba(0,0,0,0.16);
 
   & > .wrapper {
@@ -68,18 +68,18 @@
       color: #fff;
       font-weight: 600;
       padding: 13px 24px;
-      border-left: 1px solid #327DAF;
+      border-left: 1px solid rgba(255, 255, 255, 0.2);
       transition: background-color 200ms;
 
       &:hover {
-        background-color: #298DCF;
+        background-color: @c-blue-2;
         transition: background-color 200ms;
       }
     }
 
     &.active {
       & > a {
-        background-color: #298DCF;
+        background-color: @c-blue-2;
       }
     }
   }
