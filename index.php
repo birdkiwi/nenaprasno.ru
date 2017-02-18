@@ -551,11 +551,11 @@
                 Справочник по видам рака
             </div>
 
-            <div class="cancer-directory-block-list">
-                <dl>
-                    <dt>А</dt>
-                    <dd>
-                        <ul>
+            <div class="cancer-directory-block-columns">
+                <div class="cancer-directory-block-column">
+                    <div class="cancer-directory-block-section">
+                        <div class="cancer-directory-block-letter">A</div>
+                        <ul class="cancer-directory-block-list">
                             <li>
                                 <a href="#">Acute Lymphoblastic Leukemia</a>
                             </li>
@@ -569,46 +569,163 @@
                                 <a href="#">Adrenocortical Carcinoma</a>
                             </li>
                         </ul>
-                    </dd>
+                    </div>
+                    <div class="cancer-directory-block-section">
+                        <div class="cancer-directory-block-letter">Б</div>
+                        <ul class="cancer-directory-block-list">
+                            <li>
+                                <a href="#">БAcute Lymphoblastic Leukemia</a>
+                            </li>
+                            <li>
+                                <a href="#">БAcute Myeloid Leukemia</a>
+                            </li>
+                            <li>
+                                <a href="#">БAdolescents</a>
+                            </li>
+                            <li>
+                                <a href="#">БAdrenocortical Carcinoma</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                    <dt>Б</dt>
-                    <dd>
-                        <ul>
+                    <div class="cancer-directory-block-section">
+                        <div class="cancer-directory-block-letter">В</div>
+                        <ul class="cancer-directory-block-list">
                             <li>
-                                <a href="#">Adrenal Cortex Cancer</a>
+                                <a href="#">ВAcute Lymphoblastic Leukemia</a>
                             </li>
                             <li>
-                                <a href="#">AIDS-Related Cancers</a>
+                                <a href="#">ВAcute Myeloid Leukemia</a>
                             </li>
                             <li>
-                                <a href="#">AIDS-Related Lymphoma</a>
+                                <a href="#">ВAdolescents</a>
                             </li>
                             <li>
-                                <a href="#">Anal Cancer</a>
+                                <a href="#">ВAdrenocortical Carcinoma</a>
+                            </li>
+                            <li>
+                                <a href="#">ВAdrenocortical Carcinoma</a>
                             </li>
                         </ul>
-                    </dd>
+                    </div>
+                </div>
+                <div class="cancer-directory-block-column">
+                    <div class="cancer-directory-block-section">
+                        <ul class="cancer-directory-block-list">
+                            <li>
+                                <a href="#">Acute Lymphoblastic Leukemia</a>
+                            </li>
+                            <li>
+                                <a href="#">Acute Myeloid Leukemia</a>
+                            </li>
+                            <li>
+                                <a href="#">Adolescents</a>
+                            </li>
+                            <li>
+                                <a href="#">Adrenocortical Carcinoma</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cancer-directory-block-section">
+                        <div class="cancer-directory-block-letter">Г</div>
+                        <ul class="cancer-directory-block-list">
+                            <li>
+                                <a href="#">БAcute Lymphoblastic Leukemia</a>
+                            </li>
+                            <li>
+                                <a href="#">БAcute Myeloid Leukemia</a>
+                            </li>
+                            <li>
+                                <a href="#">БAdolescents</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                    <dt>В</dt>
-                    <dd>
-                        <ul>
+                    <div class="cancer-directory-block-section">
+                        <div class="cancer-directory-block-letter">Д</div>
+                        <ul class="cancer-directory-block-list">
                             <li>
-                                <a href="#">Appendix Cancer</a>
+                                <a href="#">ВAcute Lymphoblastic Leukemia</a>
                             </li>
                             <li>
-                                <a href="#">Astrocytomas, Childhood</a>
+                                <a href="#">ВAcute Myeloid Leukemia</a>
                             </li>
                             <li>
-                                <a href="#">Atypical Teratoid/Rhabdoid Tumor</a>
+                                <a href="#">ВAdolescents</a>
+                            </li>
+                            <li>
+                                <a href="#">ВAdrenocortical Carcinoma</a>
+                            </li>
+                            <li>
+                                <a href="#">ВAdrenocortical Carcinoma</a>
+                            </li>
+                            <li>
+                                <a href="#">ВAdolescents</a>
                             </li>
                         </ul>
-                    </dd>
-                </dl>
+                    </div>
+                </div>
+                <div class="cancer-directory-block-column">
+                    <div class="cancer-directory-block-section">
+                        <div class="cancer-directory-block-letter">A</div>
+                        <ul class="cancer-directory-block-list">
+                            <li>
+                                <a href="#">Acute Lymphoblastic Leukemia</a>
+                            </li>
+                            <li>
+                                <a href="#">Acute Myeloid Leukemia</a>
+                            </li>
+                            <li>
+                                <a href="#">Adolescents</a>
+                            </li>
+                            <li>
+                                <a href="#">Adrenocortical Carcinoma</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cancer-directory-block-section">
+                        <div class="cancer-directory-block-letter">Б</div>
+                        <ul class="cancer-directory-block-list">
+                            <li>
+                                <a href="#">БAcute Lymphoblastic Leukemia</a>
+                            </li>
+                            <li>
+                                <a href="#">БAcute Myeloid Leukemia</a>
+                            </li>
+                            <li>
+                                <a href="#">БAdolescents</a>
+                            </li>
+                            <li>
+                                <a href="#">БAdrenocortical Carcinoma</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                <dl>
-                    <dt>Г</dt>
-                    <dd>
-                        <ul>
+                    <div class="cancer-directory-block-section">
+                        <div class="cancer-directory-block-letter">В</div>
+                        <ul class="cancer-directory-block-list">
+                            <li>
+                                <a href="#">ВAcute Lymphoblastic Leukemia</a>
+                            </li>
+                            <li>
+                                <a href="#">ВAcute Myeloid Leukemia</a>
+                            </li>
+                            <li>
+                                <a href="#">ВAdolescents</a>
+                            </li>
+                            <li>
+                                <a href="#">ВAdrenocortical Carcinoma</a>
+                            </li>
+                            <li>
+                                <a href="#">ВAdrenocortical Carcinoma</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cancer-directory-block-column">
+                    <div class="cancer-directory-block-section">
+                        <div class="cancer-directory-block-letter">A</div>
+                        <ul class="cancer-directory-block-list">
                             <li>
                                 <a href="#">Acute Lymphoblastic Leukemia</a>
                             </li>
@@ -621,143 +738,47 @@
                             <li>
                                 <a href="#">Adrenocortical Carcinoma</a>
                             </li>
+                        </ul>
+                    </div>
+                    <div class="cancer-directory-block-section">
+                        <div class="cancer-directory-block-letter">Б</div>
+                        <ul class="cancer-directory-block-list">
                             <li>
-                                <a href="#">Adolescents</a>
+                                <a href="#">БAcute Lymphoblastic Leukemia</a>
+                            </li>
+                            <li>
+                                <a href="#">БAcute Myeloid Leukemia</a>
+                            </li>
+                            <li>
+                                <a href="#">БAdolescents</a>
+                            </li>
+                            <li>
+                                <a href="#">БAdrenocortical Carcinoma</a>
                             </li>
                         </ul>
-                    </dd>
+                    </div>
 
-                    <dt>Д</dt>
-                    <dd>
-                        <ul>
+                    <div class="cancer-directory-block-section">
+                        <div class="cancer-directory-block-letter">В</div>
+                        <ul class="cancer-directory-block-list">
                             <li>
-                                <a href="#">Acute Lymphoblastic Leukemia</a>
+                                <a href="#">ВAcute Lymphoblastic Leukemia</a>
                             </li>
                             <li>
-                                <a href="#">Acute Myeloid Leukemia</a>
-                            </li>
-                        </ul>
-                    </dd>
-                    <dt>Е</dt>
-                    <dd>
-                        <ul>
-                            <li>
-                                <a href="#">Acute Lymphoblastic Leukemia</a>
+                                <a href="#">ВAcute Myeloid Leukemia</a>
                             </li>
                             <li>
-                                <a href="#">Acute Myeloid Leukemia</a>
+                                <a href="#">ВAdolescents</a>
                             </li>
                             <li>
-                                <a href="#">Adolescents</a>
+                                <a href="#">ВAdrenocortical Carcinoma</a>
                             </li>
                             <li>
-                                <a href="#">Adrenocortical Carcinoma</a>
+                                <a href="#">ВAdrenocortical Carcinoma</a>
                             </li>
                         </ul>
-                    </dd>
-                </dl>
-
-                <dl>
-                    <dt>&nbsp;</dt>
-                    <dd>
-                        <ul>
-                            <li>
-                                <a href="#">Acute Lymphoblastic Leukemia</a>
-                            </li>
-                            <li>
-                                <a href="#">Acute Myeloid Leukemia</a>
-                            </li>
-                            <li>
-                                <a href="#">Adolescents</a>
-                            </li>
-                            <li>
-                                <a href="#">Adrenocortical Carcinoma</a>
-                            </li>
-                        </ul>
-                    </dd>
-                    <dt>Ж</dt>
-                    <dd>
-                        <ul>
-                            <li>
-                                <a href="#">Acute Lymphoblastic Leukemia</a>
-                            </li>
-                            <li>
-                                <a href="#">Acute Myeloid Leukemia</a>
-                            </li>
-                            <li>
-                                <a href="#">Adolescents</a>
-                            </li>
-                        </ul>
-                    </dd>
-                    <dt>З</dt>
-                    <dd>
-                        <ul>
-                            <li>
-                                <a href="#">Acute Lymphoblastic Leukemia</a>
-                            </li>
-                            <li>
-                                <a href="#">Acute Myeloid Leukemia</a>
-                            </li>
-                            <li>
-                                <a href="#">Adolescents</a>
-                            </li>
-                            <li>
-                                <a href="#">Adrenocortical Carcinoma</a>
-                            </li>
-                        </ul>
-                    </dd>
-                </dl>
-
-                <dl>
-                    <dt>И</dt>
-                    <dd>
-                        <ul>
-                            <li>
-                                <a href="#">Acute Lymphoblastic Leukemia</a>
-                            </li>
-                            <li>
-                                <a href="#">Acute Myeloid Leukemia</a>
-                            </li>
-                            <li>
-                                <a href="#">Adolescents</a>
-                            </li>
-                            <li>
-                                <a href="#">Adrenocortical Carcinoma</a>
-                            </li>
-                        </ul>
-                    </dd>
-                    <dt>К</dt>
-                    <dd>
-                        <ul>
-                            <li>
-                                <a href="#">Acute Lymphoblastic Leukemia</a>
-                            </li>
-                            <li>
-                                <a href="#">Acute Myeloid Leukemia</a>
-                            </li>
-                            <li>
-                                <a href="#">Adolescents</a>
-                            </li>
-                            <li>
-                                <a href="#">Adrenocortical Carcinoma</a>
-                            </li>
-                        </ul>
-                    </dd>
-                    <dt>Л</dt>
-                    <dd>
-                        <ul>
-                            <li>
-                                <a href="#">Acute Lymphoblastic Leukemia</a>
-                            </li>
-                            <li>
-                                <a href="#">Acute Myeloid Leukemia</a>
-                            </li>
-                            <li>
-                                <a href="#">Adolescents</a>
-                            </li>
-                        </ul>
-                    </dd>
-                </dl>
+                    </div>
+                </div>
             </div>
 
             <div class="cancer-directory-block-load-more">
