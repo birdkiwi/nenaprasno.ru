@@ -241,7 +241,7 @@
         </div>
     </section>
 
-    <section class="news-block p-t-xxl p-b-xxl b-gray">
+    <section class="news-block p-b-xxl b-gray">
         <div class="wrapper">
             <div class="block-title">
                 <span>Новости и события</span>

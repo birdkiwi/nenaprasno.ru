@@ -24,6 +24,45 @@
             Справочник по видам рака
         </div>
     </div>
+
+    <div class="cancer-directory-block-nav">
+        <div class="wrapper">
+            <div class="cancer-directory-block-nav-search">
+                <input type="search" name="search" placeholder="Поиск по справочнику">
+            </div>
+            <nav class="cancer-directory-block-nav-letters">
+                <a href="#" class="cancer-directory-block-nav-letters-item active">А</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Б</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">В</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Г</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Д</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Е</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Ж</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">З</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">И</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">К</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Л</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">М</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Н</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">О</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">П</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Р</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">С</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Т</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">У</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Ф</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Х</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Ц</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Ч</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Ш</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Щ</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Ы</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Э</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Ю</a>
+                <a href="#" class="cancer-directory-block-nav-letters-item">Я</a>
+            </nav>
+        </div>
+    </div>
 </main>
 
 <?php include "blocks/footer.php"; ?>

@@ -80,7 +80,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 m-b-md">
                                 <label class="donate-block-form-label">Другая сумма</label>
-                                <input type="text" class="donate-block-form-input" placeholder="руб.">
+                                <input type="text" class="form-input donate-block-form-input" placeholder="руб.">
                             </div>
                             <div class="col-xs-12 col-sm-6 m-b-md">
                                 <label class="donate-block-form-label">Поддержать проект</label>
@@ -96,18 +96,22 @@
 
                         <div class="m-b-md">
                             <label class="donate-block-form-label">E-mail</label>
-                            <input type="email" class="donate-block-form-input" placeholder="example@domain.com">
+                            <input type="email" class="form-input donate-block-form-input" placeholder="example@domain.com">
                         </div>
 
                         <div class="donate-block-form-user">
                             <div class="donate-block-form-user-select">
                                 <div class="donate-block-form-user-select-item">
-                                    <input id="donate-block-user-0" type="radio" name="user-select" checked>
-                                    <label for="donate-block-user-0">Анонимно</label>
+                                    <div class="form-control-radio">
+                                        <input id="donate-block-user-0" type="radio" name="user-select" checked>
+                                        <label for="donate-block-user-0">Анонимно</label>
+                                    </div>
                                 </div>
                                 <div class="donate-block-form-user-select-item">
-                                    <input id="donate-block-user-1" type="radio" name="user-select">
-                                    <label for="donate-block-user-1">Представьтесь</label>
+                                    <div class="form-control-radio">
+                                        <input id="donate-block-user-1" type="radio" name="user-select">
+                                        <label for="donate-block-user-1">Представьтесь</label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -116,14 +120,16 @@
                         <div class="row">
                             <div class="col-xs-4">
                                 <div class="donate-block-form-agreement">
-                                    <input id="donate-block-agreement" type="checkbox" name="agreement">
-                                    <label for="donate-block-agreement">
-                                        Согласен с <a href="#">офертой</a>
-                                    </label>
+                                    <div class="form-control-checkbox">
+                                        <input id="donate-block-agreement" type="checkbox" name="agreement">
+                                        <label for="donate-block-agreement">
+                                            Согласен с <a href="#">офертой</a>
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-xs-4 text-center">
-                                <button class="button button-green button-round donate-block-form-submit">Продолжить</button>
+                            <div class="col-xs-8 text-right">
+                                <button class="button button-orange button-round donate-block-form-submit">Продолжить</button>
                             </div>
                         </div>
                     </div>

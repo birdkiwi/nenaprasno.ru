@@ -144,7 +144,40 @@
                         Вы можете стать партнером Проекта (для юридических лиц) или подписаться не регулярное пожертвование и поддержать обучение специалистов-онкологов.
                     </p>
 
-                    <a href="#" class="button button-blue button-round">Оформить пожертвование</a>
+                    <a href="#" class="button button-blue button-xsmall">Оформить пожертвование</a>
+                </div>
+
+                <div class="partners-block m-b-md">
+                    <div class="partners-block-title">
+                        Генеральные партнеры
+                    </div>
+
+                    <div class="partners-block-items">
+                        <a href="#" class="partners-block-item">
+                            <img src="images/tmp/logo-1.png" alt="">
+                        </a>
+                        <a href="#" class="partners-block-item">
+                            <img src="images/tmp/logo-2.png" alt="">
+                        </a>
+                        <a href="#" class="partners-block-item">
+                            <img src="images/tmp/logo-2.png" alt="">
+                        </a>
+                        <a href="#" class="partners-block-item">
+                            <img src="images/tmp/logo-2.png" alt="">
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="partners-block m-b-md">
+                    <div class="partners-block-title">
+                        Спонсоры
+                    </div>
+                    <div class="partners-block-items">
+                        <a href="#" class="partners-block-item">
+                            <img src="images/tmp/logo-3.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-md-3">

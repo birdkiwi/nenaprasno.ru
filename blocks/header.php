@@ -7,15 +7,29 @@
         </div>
         <div class="main-header-right">
             <div class="main-header-contacts">
+                <div class="main-header-contacts-title">
+                    Связаться с нами
+                </div>
                 <a href="#"class="main-header-contacts-phone">
                     +7 812 316-34-34
                 </a>
-                <a href="mailto:foundmain@gmail.com" class="main-header-contacts-email">
-                    foundmain@gmail.com
-                </a>
             </div>
             <div class="main-header-buttons">
-                <a href="#" class="button button-blue-hollow button-round">Вход / Регистрация</a>
+                <div href="#" class="main-header-button-login">
+                    <a href="#" class="link-dotted">Вход</a> — <a href="#" class="link-dotted">Регистрация</a>
+                </div>
+
+                <div class="social-buttons">
+                    <a href="#" target="_blank" title="Вконтакте">
+                        <?php include "images/icon-social-vk.svg"; ?>
+                    </a>
+                    <a href="#" target="_blank" title="Facebook">
+                        <?php include "images/icon-social-facebook.svg"; ?>
+                    </a>
+                    <a href="#" target="_blank" title="Twitter">
+                        <?php include "images/icon-social-twitter.svg"; ?>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
