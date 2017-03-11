@@ -547,8 +547,16 @@
     </section>
     <section class="cancer-directory-block p-t-xl p-b-xl">
         <div class="wrapper">
-            <div class="cancer-directory-block-title">
-                Справочник по видам рака
+            <div class="cancer-directory-block-header">
+                <div class="cancer-directory-block-title">
+                    Справочник по видам рака
+                </div>
+                <form action="#" method="GET" class="cancer-directory-block-search">
+                    <input class="cancer-directory-block-search-input" type="text" name="search" placeholder="Поиск по названию">
+                    <button class="cancer-directory-block-search-button" type="submit">
+                        <?php include "images/icon-magnifying-glass.svg"; ?>
+                    </button>
+                </form>
             </div>
 
             <div class="cancer-directory-block-columns">

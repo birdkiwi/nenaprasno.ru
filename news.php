@@ -289,10 +289,21 @@
                 </div>
 
                 <div class="pagination m-b-lg">
-                    <a href="#" class="pagination-item active">1</a>
-                    <a href="#" class="pagination-item">2</a>
-                    <a href="#" class="pagination-item">3</a>
+                    <a href="#" class="pagination-item pagination-item-prev">
+                        <?php include "images/icon-pagination-prev.svg"; ?>
+                        Пред.
+                    </a>
+                    <a href="#" class="pagination-item">1</a>
+                    <a href="#" class="pagination-item pagination-item-skip">...</a>
                     <a href="#" class="pagination-item">4</a>
+                    <a href="#" class="pagination-item active">5</a>
+                    <a href="#" class="pagination-item">6</a>
+                    <a href="#" class="pagination-item pagination-item-skip">...</a>
+                    <a href="#" class="pagination-item">11</a>
+                    <a href="#" class="pagination-item pagination-item-next">
+                        След.
+                        <?php include "images/icon-pagination-next.svg"; ?>
+                    </a>
                 </div>
             </div>
         </div>

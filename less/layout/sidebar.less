@@ -5,13 +5,14 @@
 .main-sidebar-menu {
   & > ul {
     .ul-reset;
+    margin-left: 15px;
 
-    li {
+    & > li {
       font-size: 15px;
       color: #454545;
       margin-bottom: 18px;
 
-      a {
+      & > a {
         display: block;
         position: relative;
         color: #454545;
@@ -19,27 +20,28 @@
         transition: all 200ms;
 
         &:hover {
-          color: #0B65A0;
+          color: #298DCF;
           transition: all 200ms;
         }
       }
 
       &.active {
-        a {
-          color: #0B65A0;
+        & > a {
+          color: #298DCF;
           text-decoration: none;
 
           &::before {
             content: '';
             display: inline-block;
             position: absolute;
-            left: -10px;
-            top: 0;
+            left: -12px;
+            top: 50%;
+            margin-top: -2px;
             vertical-align: middle;
             width: 4px;
-            height: 100%;
-            background: #0B65A0;
-            border-radius: 2px;
+            height: 4px;
+            border-radius: 4px;
+            background: #298DCF;
           }
         }
       }
@@ -52,4 +54,31 @@
   margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
+
+  & > li {
+    color: #454545;
+    font-size: 13px;
+    margin-bottom: 8px;
+
+    & > a {
+      color: #454545;
+      transition: all 200ms;
+
+      &::before {
+        display: none;
+      }
+
+      &:hover,
+      &:focus {
+        color: @c-blue;
+        transition: all 200ms;
+      }
+    }
+
+    &.active {
+      & > a {
+        color: @c-blue;
+      }
+    }
+  }
 }

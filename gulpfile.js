@@ -4,6 +4,7 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
+    autoprefixer = require('gulp-autoprefixer'),
     sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('less', function() {
@@ -11,6 +12,10 @@ gulp.task('less', function() {
         .pipe(sourcemaps.init())
             .pipe(less().on('error', function(err) {
                 console.log(err);
+            }))
+            .pipe(autoprefixer({
+                browsers: ['last 2 versions'],
+                cascade: false
             }))
             .pipe(cssmin().on('error', function(err) {
                 console.log(err);
@@ -25,6 +30,7 @@ gulp.task('less', function() {
 var jsFiles = [
         './bower_components/jquery/dist/jquery.js',
         './bower_components/bxslider-4/dist/jquery.bxslider.js',
+        './bower_components/fancybox/dist/jquery.fancybox.js',
         './js/**/*.js'
     ],
     jsDest = './build';

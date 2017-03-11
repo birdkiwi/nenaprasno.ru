@@ -48,7 +48,9 @@
                         <div class="col-sm-4">
                             <div class="staff-block-item">
                                 <div class="staff-block-item-photo">
-                                    <img src="images/tmp/staff-1.jpg" alt="Барчук Алексей Степанович">
+                                    <a href="#">
+                                        <img src="images/tmp/staff-1.jpg" alt="Барчук Алексей Степанович">
+                                    </a>
                                 </div>
                                 <div class="staff-block-item-name">
                                     Барчук Алексей Степанович
@@ -63,7 +65,9 @@
                         <div class="col-sm-4">
                             <div class="staff-block-item">
                                 <div class="staff-block-item-photo">
-                                    <img src="images/tmp/staff-2.jpg" alt="Фоминцев Илья Алексеевич">
+                                    <a href="#">
+                                        <img src="images/tmp/staff-2.jpg" alt="Фоминцев Илья Алексеевич">
+                                    </a>
                                 </div>
                                 <div class="staff-block-item-name">
                                     Фоминцев Илья Алексеевич
@@ -76,7 +80,9 @@
                         <div class="col-sm-4">
                             <div class="staff-block-item">
                                 <div class="staff-block-item-photo">
-                                    <img src="images/tmp/staff-3.jpg" alt="Борунов Александр Васильевич">
+                                    <a href="#">
+                                        <img src="images/tmp/staff-3.jpg" alt="Борунов Александр Васильевич">
+                                    </a>
                                 </div>
                                 <div class="staff-block-item-name">
                                     Борунов Александр Васильевич
@@ -89,7 +95,9 @@
                         <div class="col-sm-4">
                             <div class="staff-block-item">
                                 <div class="staff-block-item-photo">
-                                    <img src="images/tmp/staff-4.jpg" alt="Коваль Елена Александровна">
+                                    <a href="#">
+                                        <img src="images/tmp/staff-4.jpg" alt="Коваль Елена Александровна">
+                                    </a>
                                 </div>
                                 <div class="staff-block-item-name">
                                     Коваль Елена Александровна
