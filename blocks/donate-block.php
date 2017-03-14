@@ -103,40 +103,73 @@
                             <div class="donate-block-form-user-select">
                                 <div class="donate-block-form-user-select-item">
                                     <div class="form-control-radio">
-                                        <input id="donate-block-user-0" type="radio" name="user-select" checked>
+                                        <input id="donate-block-user-0" type="radio" name="user-select" value="0" checked autocomplete="off" onchange="if($(this).val() == 0) { $('#js-donate-block-user').hide(); } else { $('#js-donate-block-user').show();} ">
                                         <label for="donate-block-user-0">Анонимно</label>
                                     </div>
                                 </div>
                                 <div class="donate-block-form-user-select-item">
                                     <div class="form-control-radio">
-                                        <input id="donate-block-user-1" type="radio" name="user-select">
+                                        <input id="donate-block-user-1" type="radio" name="user-select" value="1" autocomplete="off" onchange="if($(this).val() == 1) { $('#js-donate-block-user').show(); } else { $('#js-donate-block-user').hide();} ">
                                         <label for="donate-block-user-1">Представьтесь</label>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="donate-block-form-padding">
-                        <div class="row">
-                            <div class="col-xs-4">
-                                <div class="donate-block-form-agreement">
-                                    <div class="form-control-checkbox">
-                                        <input id="donate-block-agreement" type="checkbox" name="agreement">
-                                        <label for="donate-block-agreement">
-                                            Согласен с <a href="#">офертой</a>
-                                        </label>
-                                    </div>
+
+                            <div id="js-donate-block-user" class="row" style="display: none;">
+                                <div class="col-xs-12 col-sm-6 m-t-md m-b-md">
+                                    <label class="donate-block-form-label">Имя</label>
+                                    <input type="text" name="name" class="form-input donate-block-form-input" placeholder="Как вас зовут?">
+                                </div>
+                                <div class="col-xs-12 col-sm-6 m-t-md m-b-md">
+                                    <label class="donate-block-form-label">Фамилия</label>
+                                    <input type="text" name="lastname" class="form-input donate-block-form-input" placeholder="Как ваша фамилия?">
                                 </div>
                             </div>
-                            <div class="col-xs-8 text-right">
-                                <button class="button button-orange button-round donate-block-form-submit">Продолжить</button>
+                        </div>
+                    </div>
+                    <div class="donate-block-form-footer">
+                        <div class="donate-block-form-padding">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="donate-block-form-agreement">
+                                        <div class="form-control-checkbox">
+                                            <input id="donate-block-agreement" type="checkbox" name="agreement">
+                                            <label for="donate-block-agreement">
+                                                Согласен с <a href="#">офертой</a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-8 text-right">
+                                    <button class="button button-orange button-round donate-block-form-submit">Продолжить</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div id="donate-block-sberbank" class="donate-block-form-tab">
                     <div class="donate-block-form-padding">
-                        Sber
+                        <div class="donate-block-form-bank">
+                            <div class="donate-block-form-bank-icon">
+                                <?php include "images/icon-donate-download.svg"; ?>
+                            </div>
+                            <div class="donate-block-form-bank-desc">
+                                Скачайте и распечатайте квитанцию, <br>
+                                заполните необходимые поля и оплатите ее <br>
+                                в любом банке.
+                            </div>
+
+                            <div class="donate-block-form-bank-buttons">
+                                <a href="#" class="button button-orange button-round">
+                                    Скачать квитанцию
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="donate-block-form-footer">
+                        <div class="donate-block-form-padding">
+                            Пожертвование осуществляется на условиях <a href="#" target="_blank">Публичной офертой</a>
+                        </div>
                     </div>
                 </div>
             </form>

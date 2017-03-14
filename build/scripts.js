@@ -15953,8 +15953,6 @@ return jQuery;
 
 $(document).ready(function () {
     $('[data-toggle]').toggler();
-
-
 });
 (function() {
     $('.js-header-slider').each(function () {
