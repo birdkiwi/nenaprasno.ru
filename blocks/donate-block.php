@@ -40,7 +40,7 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="donate-block-form-custom-radio donate-block-form-payment-value-item">
-                                        <input id="donate-block-payment-100" type="radio" name="payment-value" value="100">
+                                        <input id="donate-block-payment-100" type="radio" name="payment-value" value="100" checked>
                                         <label for="donate-block-payment-100">100 руб.</label>
                                     </div>
                                 </div>
@@ -96,20 +96,20 @@
 
                         <div class="m-b-md">
                             <label class="donate-block-form-label">E-mail</label>
-                            <input type="email" class="form-input donate-block-form-input" placeholder="example@domain.com">
+                            <input type="email" class="form-input donate-block-form-input" required placeholder="example@domain.com">
                         </div>
 
                         <div class="donate-block-form-user">
                             <div class="donate-block-form-user-select">
                                 <div class="donate-block-form-user-select-item">
                                     <div class="form-control-radio">
-                                        <input id="donate-block-user-0" type="radio" name="user-select" value="0" checked autocomplete="off" onchange="if($(this).val() == 0) { $('#js-donate-block-user').hide(); } else { $('#js-donate-block-user').show();} ">
+                                        <input id="donate-block-user-0" type="radio" name="user-select" value="0" checked autocomplete="off" onchange="if($(this).val() == 0) { $('#js-donate-block-user').hide().find('input').attr('disabled', true); } else { $('#js-donate-block-user').show();} ">
                                         <label for="donate-block-user-0">Анонимно</label>
                                     </div>
                                 </div>
                                 <div class="donate-block-form-user-select-item">
                                     <div class="form-control-radio">
-                                        <input id="donate-block-user-1" type="radio" name="user-select" value="1" autocomplete="off" onchange="if($(this).val() == 1) { $('#js-donate-block-user').show(); } else { $('#js-donate-block-user').hide();} ">
+                                        <input id="donate-block-user-1" type="radio" name="user-select" value="1" autocomplete="off" onchange="if($(this).val() == 1) { $('#js-donate-block-user').show().find('input').attr('disabled', false); } else { $('#js-donate-block-user').hide();} ">
                                         <label for="donate-block-user-1">Представьтесь</label>
                                     </div>
                                 </div>
@@ -118,11 +118,11 @@
                             <div id="js-donate-block-user" class="row" style="display: none;">
                                 <div class="col-xs-12 col-sm-6 m-t-md m-b-md">
                                     <label class="donate-block-form-label">Имя</label>
-                                    <input type="text" name="name" class="form-input donate-block-form-input" placeholder="Как вас зовут?">
+                                    <input type="text" name="name" class="form-input donate-block-form-input" required disabled placeholder="Как вас зовут?">
                                 </div>
                                 <div class="col-xs-12 col-sm-6 m-t-md m-b-md">
                                     <label class="donate-block-form-label">Фамилия</label>
-                                    <input type="text" name="lastname" class="form-input donate-block-form-input" placeholder="Как ваша фамилия?">
+                                    <input type="text" name="lastname" class="form-input donate-block-form-input" required disabled placeholder="Как ваша фамилия?">
                                 </div>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                                 <div class="col-xs-4">
                                     <div class="donate-block-form-agreement">
                                         <div class="form-control-checkbox">
-                                            <input id="donate-block-agreement" type="checkbox" name="agreement">
+                                            <input id="donate-block-agreement" type="checkbox" name="agreement" required>
                                             <label for="donate-block-agreement">
                                                 Согласен с <a href="#">офертой</a>
                                             </label>

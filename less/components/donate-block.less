@@ -42,10 +42,25 @@
   font-size: 17px;
   padding: 0 15px;
   border: 1px solid #D4D4D4;
+  background: #fff;
+  box-shadow: none;
+  outline: none;
 
   .placeholder({
     color: #888888;
   });
+
+  &:focus {
+    border-color: #44B8FD;
+    background-color: #fdfbff;
+
+    &:invalid {
+      background-color: #ffe2f4;
+      border-color: #FF6666;
+    }
+  }
+
+
 }
 
 .donate-block-form-select {
@@ -69,6 +84,7 @@
   }
 
   select {
+    background: #fff;
     width: 120%;
     border: none;
     font-size: 17px;
