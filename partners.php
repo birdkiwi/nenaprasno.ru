@@ -45,16 +45,28 @@
 
                     <div class="partners-block-items">
                         <a href="#" class="partners-block-item">
-                            <img src="images/tmp/logo-1.png" alt="">
+                            <div class="partners-block-item-image">
+                                <img src="images/tmp/logo-1.png" alt="">
+                            </div>
+                            <div class="partners-block-item-title">Отели и хостелы «Друзья»</div>
                         </a>
                         <a href="#" class="partners-block-item">
-                            <img src="images/tmp/logo-2.png" alt="">
+                            <div class="partners-block-item-image">
+                                <img src="images/tmp/logo-2.png" alt="">
+                            </div>
+                            <div class="partners-block-item-title">3t рекламное агентство</div>
                         </a>
                         <a href="#" class="partners-block-item">
-                            <img src="images/tmp/logo-2.png" alt="">
+                            <div class="partners-block-item-image">
+                                <img src="images/tmp/logo-2.png" alt="">
+                            </div>
+                            <div class="partners-block-item-title">Вальшар Крукка</div>
                         </a>
                         <a href="#" class="partners-block-item">
-                            <img src="images/tmp/logo-2.png" alt="">
+                            <div class="partners-block-item-image">
+                                <img src="images/tmp/logo-2.png" alt="">
+                            </div>
+                            <div class="partners-block-item-title">Вебпортной</div>
                         </a>
                     </div>
                 </div>

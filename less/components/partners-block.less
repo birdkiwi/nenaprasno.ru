@@ -29,8 +29,8 @@
 
 .partners-block-item {
   display: inline-flex;
+  flex-direction: column;
   width: 170px;
-  height: 130px;
   align-items: center;
   justify-content: center;
   background: #fff;
@@ -38,9 +38,18 @@
   box-shadow: 0 1px 1px 0 rgba(0,0,0,0.12);
   border-radius: 2px;
   margin: 15px;
+}
 
-  img {
-    max-width: 100%;
-    max-height: 100%;
-  }
+.partners-block-item-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.partners-block-item-title {
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  margin-top: auto;
+  margin-bottom: 15px;
+  padding: 15px 15px 0;
 }
