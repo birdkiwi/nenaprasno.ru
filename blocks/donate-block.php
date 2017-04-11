@@ -131,7 +131,7 @@
                         <div class="donate-block-form-footer">
                             <div class="donate-block-form-padding">
                                 <div class="row">
-                                    <div class="col-xs-4">
+                                    <div class="col-xs-6 col-sm-4">
                                         <div class="donate-block-form-agreement">
                                             <div class="form-control-checkbox">
                                                 <input id="donate-block-agreement" type="checkbox" name="agreement" required>
@@ -141,7 +141,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xs-8 text-right">
+                                    <div class="col-xs-6 col-sm-8 text-right">
                                         <button class="button button-orange button-round donate-block-form-submit">Продолжить</button>
                                     </div>
                                 </div>

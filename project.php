@@ -20,71 +20,145 @@
             </ul>
         </div>
 
-        <div class="page-title">
-            Высшая школа онкологии
-        </div>
-        <div class="page-subtitle">
-            Фонд профилактики рака совместно с НИИ онкологии им. Н.Н. Петрова запустили программу подготовки молодых онкологов «Высшая школа онкологии».
-        </div>
-
         <div class="project-preview m-b-lg">
-            <div class="project-preview-photo">
-                <img src="images/tmp/project-photo-1.jpg" alt="Project">
-            </div>
             <div class="project-preview-content">
                 <div class="project-preview-content-padding">
+                    <div class="page-title">
+                        Высшая школа онкологии
+                    </div>
+                    <div class="page-subtitle">
+                        Фонд профилактики рака совместно с НИИ онкологии им. Н.Н. Петрова запустили программу подготовки молодых онкологов «Высшая школа онкологии».
+                    </div>
+
                     <div class="project-preview-content-desc">
                         Проект рассчитан на выпускников медицинских вузов и врачей-интернов россии, украины, беларуси, казахстана, Армении, Азербайджана и грузии
                     </div>
 
-                    <div class="project-preview-content-goal">
+                    <div class="project-preview-content-goal m-b-lg">
                         <div class="project-preview-content-goal-title">Цель проекта</div>
                         Содействовать улучшению профессионального послевузовского образования врачей онкологов и изменению кадровой ситуации в российской онкологической службе.
                     </div>
+
+                    <div class="project-preview-content-button m-b-lg">
+                        <a href="#" class="button button-blue button-round">Помочь проекту</a>
+                    </div>
+
+                    <div class="project-preview-content-links">
+                        <div class="project-preview-share">
+                            <a href="#project-share" data-toggle data-toggle-self-deactive class="link-dotted">Поделиться</a>
+                            <div id="project-share" class="project-preview-share-tooltip">
+                                <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+                                <script src="//yastatic.net/share2/share.js"></script>
+                                <div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki"></div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="link-dotted">Список поддержавших</a>
+                    </div>
                 </div>
+            </div>
 
-                <div class="project-preview-donate">
-                    <div class="project-preview-donate-padding">
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <div class="project-preview-donate-collected">
-                                    <div class="project-preview-donate-title">Собрано</div>
-                                    <b>367 533 Р.</b>
-                                </div>
-                            </div>
-                            <div class="col-xs-6">
-                                <div class="project-preview-donate-goal">
-                                    <div class="project-preview-donate-title">Цель проекта</div>
-                                    <b>1 000 000 Р.</b>
-                                </div>
-                            </div>
-                        </div>
+            <div class="project-preview-photo">
+                <img src="images/tmp/project-photo-1.jpg" alt="Project">
+            </div>
+        </div>
+    </div>
+    <div class="project-preview-donation m-b-lg">
+        <div class="wrapper">
+            <div class="project-preview-donation-title">
+                Собрано 367 533 руб из 1 000 000 руб/год
+            </div>
+
+            <div class="project-preview-donation-bar">
+                <div class="project-preview-donation-bar-section project-preview-donation-bar-green" style="width: 5%;"></div>
+                <div class="project-preview-donation-bar-section project-preview-donation-bar-lily" style="width: 7%;"></div>
+                <div class="project-preview-donation-bar-section project-preview-donation-bar-red" style="width: 10%;"></div>
+                <div class="project-preview-donation-bar-section project-preview-donation-bar-yellow" style="width: 10%;"></div>
+                <div class="project-preview-donation-bar-section project-preview-donation-bar-blue" style="width: 5%;"></div>
+                <div class="project-preview-donation-bar-section project-preview-donation-bar-gray" style="width: 63%;"></div>
+
+                <div class="project-preview-donation-bar-arrow" style="left: 3%;">
+                    <div class="project-preview-donation-bar-arrow-text">
+                        Старт проекта
                     </div>
-
-                    <div class="project-preview-donate-bar">
-                        <div class="project-preview-donate-bar-active" style="width: 20%;"></div>
+                </div>
+                <div class="project-preview-donation-bar-arrow" style="left: 14%;">
+                    <div class="project-preview-donation-bar-arrow-text">
+                        Курс английского
                     </div>
+                </div>
+                <div class="project-preview-donation-bar-arrow" style="left: 28%;">
+                    <div class="project-preview-donation-bar-arrow-text">
+                        Стипендия
+                    </div>
+                </div>
+                <div class="project-preview-donation-bar-arrow" style="left: 42%;">
+                    <div class="project-preview-donation-bar-arrow-text">
+                        Стажировка
+                    </div>
+                </div>
+                <div class="project-preview-donation-bar-arrow" style="left: 64%;">
+                    <div class="project-preview-donation-bar-arrow-text">
+                        1 млн. в год
+                    </div>
+                </div>
+                <div class="project-preview-donation-bar-arrow" style="left: 90%;">
+                    <div class="project-preview-donation-bar-arrow-text">
+                        Полное финансирование
+                    </div>
+                </div>
+            </div>
 
-                    <div class="project-preview-donate-padding">
-                        <div class="project-preview-donate-buttons">
-                            <a href="#"  class="button button-blue button-xsmall button-round">Помочь проекту</a>
-
-                            <div class="project-preview-share">
-                                <a href="#project-share" data-toggle data-toggle-self-deactive class="link-dotted">Поделиться</a>
-                                <div id="project-share" class="project-preview-share-tooltip">
-                                    <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
-                                    <script src="//yastatic.net/share2/share.js"></script>
-                                    <div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki"></div>
-                                </div>
-                            </div>
-
-                            <a href="#" class="link-dotted">Список поддержавших</a>
-                        </div>
+            <div class="project-preview-donation-legend">
+                <div class="project-preview-donation-legend-item">
+                    <div class="project-preview-donation-legend-item-name">
+                        <div class="project-preview-donation-legend-item-dot project-preview-donation-bar-green"></div>
+                        Биокад
+                    </div>
+                    <div class="project-preview-donation-legend-item-value">
+                        200 000р
+                    </div>
+                </div>
+                <div class="project-preview-donation-legend-item">
+                    <div class="project-preview-donation-legend-item-name">
+                        <div class="project-preview-donation-legend-item-dot project-preview-donation-bar-lily"></div>
+                        Самсунг
+                    </div>
+                    <div class="project-preview-donation-legend-item-value">
+                        350 000р
+                    </div>
+                </div>
+                <div class="project-preview-donation-legend-item">
+                    <div class="project-preview-donation-legend-item-name">
+                        <div class="project-preview-donation-legend-item-dot project-preview-donation-bar-red"></div>
+                        Фонд развития
+                    </div>
+                    <div class="project-preview-donation-legend-item-value">
+                        650 000р
+                    </div>
+                </div>
+                <div class="project-preview-donation-legend-item">
+                    <div class="project-preview-donation-legend-item-name">
+                        <div class="project-preview-donation-legend-item-dot project-preview-donation-bar-yellow"></div>
+                        Регулярные частные пожертвования
+                    </div>
+                    <div class="project-preview-donation-legend-item-value">
+                        50 000р
+                    </div>
+                </div>
+                <div class="project-preview-donation-legend-item">
+                    <div class="project-preview-donation-legend-item-name">
+                        <div class="project-preview-donation-legend-item-dot project-preview-donation-bar-blue"></div>
+                        Нерегулярные частные пожертвования
+                    </div>
+                    <div class="project-preview-donation-legend-item-value">
+                        35 000р
                     </div>
                 </div>
             </div>
         </div>
-
+    </div>
+    <div class="wrapper">
         <div class="row">
             <div class="col-xs-12 col-md-9">
                 <div class="article-block m-b-lg">
@@ -133,7 +207,7 @@
                     </p>
 
                     <p>
-                        <img src="images/tmp/project-photo-1.jpg" alt="">
+                        <img src="images/tmp/project-photo-1.jpg" alt="" class="img-responsive">
                     </p>
 
                     <h3>Ординатору в НИИ Онкологии им. Н.Н. Петрова - это:</h3>
