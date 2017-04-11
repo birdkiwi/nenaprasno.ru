@@ -1,0 +1,68 @@
+.main-offcanvas {
+  position: fixed;
+  z-index: 1000;
+  width: 300px;
+  height: 100%;
+  overflow-y: auto;
+  left: -300px;
+  top: 0;
+  background: #fff;
+  border-right: 2px solid @c-blue;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.16);
+  opacity: 0;
+  transition: all 300ms;
+
+  &.active {
+    transform: translateX(300px);
+    opacity: 1;
+    transition: all 300ms;
+  }
+}
+
+.main-offcanvas-padding {
+  padding: 0 15px;
+}
+
+.main-offcanvas-menu {
+  .ul-reset;
+  margin-bottom: 25px;
+
+  & > li {
+    & > a {
+      display: block;
+      background: @c-blue;
+      color: #fff;
+      padding: 12px 15px;
+      font-weight: bold;
+      border-bottom: 1px solid rgba(255,255,255,.2);
+
+      &:hover,
+      &:focus {
+        background: @c-blue-2;
+      }
+    }
+
+    &.active {
+      & > a {
+        background: @c-blue-2;
+      }
+    }
+
+    & > ul {
+      .ul-reset;
+
+      & > li {
+        & > a {
+          display: block;
+          padding: 10px 15px;
+
+          &::before {
+            content: '—';
+            display: inline-block;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}

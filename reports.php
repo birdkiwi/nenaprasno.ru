@@ -1,7 +1,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=400">
+    <meta name="viewport" content="width=500">
     <title>Фонд профилактики рака</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="build/style.min.css">
@@ -25,7 +25,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-xs-12 col-md-3">
                 <aside class="main-sidebar">
                     <nav class="main-sidebar-menu">
                         <ul>
@@ -42,7 +42,7 @@
                     </nav>
                 </aside>
             </div>
-            <div class="col-md-9">
+            <div class="col-xs-12 col-md-9">
                 <div class="reports-block m-b-lg">
                     <div class="reports-block-padding">
                         <div class="reports-block-title">
@@ -54,7 +54,7 @@
                             </div>
                             <div class="reports-block-col-content">
                                 <div class="row">
-                                    <div class="col-sm-4">
+                                    <div class="col-xs-12 col-sm-4">
                                         <a href="#" class="reports-block-item">
                                             <div class="reports-block-item-icon">
                                                 <?php include "images/icon-report-file.svg"; ?>
@@ -69,7 +69,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-xs-12 col-sm-4">
                                         <a href="#" class="reports-block-item">
                                             <div class="reports-block-item-icon">
                                                 <?php include "images/icon-report-file.svg"; ?>
@@ -84,7 +84,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-xs-12 col-sm-4">
                                         <a href="#" class="reports-block-item">
                                             <div class="reports-block-item-icon">
                                                 <?php include "images/icon-report-file.svg"; ?>
@@ -109,7 +109,7 @@
                             </div>
                             <div class="reports-block-col-content">
                                 <div class="row">
-                                    <div class="col-sm-4">
+                                    <div class="col-xs-12 col-sm-4">
                                         <a href="#" class="reports-block-item">
                                             <div class="reports-block-item-icon">
                                                 <?php include "images/icon-report-file.svg"; ?>
@@ -124,7 +124,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-xs-12 col-sm-4">
                                         <a href="#" class="reports-block-item">
                                             <div class="reports-block-item-icon">
                                                 <?php include "images/icon-report-file.svg"; ?>
@@ -156,7 +156,7 @@
                             </div>
                             <div class="reports-block-col-content">
                                 <div class="row">
-                                    <div class="col-sm-4">
+                                    <div class="col-xs-12 col-sm-4">
                                         <a href="#" class="reports-block-item">
                                             <div class="reports-block-item-icon">
                                                 <?php include "images/icon-report-file.svg"; ?>
@@ -181,7 +181,7 @@
                             </div>
                             <div class="reports-block-col-content">
                                 <div class="row">
-                                    <div class="col-sm-4">
+                                    <div class="col-xs-12 col-sm-4">
                                         <a href="#" class="reports-block-item">
                                             <div class="reports-block-item-icon">
                                                 <?php include "images/icon-report-file.svg"; ?>

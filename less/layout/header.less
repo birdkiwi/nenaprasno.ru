@@ -6,16 +6,41 @@
     flex-wrap: wrap;
     align-items: center;
   }
+
+  @media all and (max-width: 1080px) {
+    border-bottom: 2px solid @c-blue;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.16);
+    padding-bottom: 20px;
+  }
+}
+
+.main-header-toggler {
+  display: none;
+  margin-right: 15px;
+  padding: 15px 15px 15px 0;
+
+  @media all and (max-width: 1080px) {
+    display: block;
+  }
 }
 
 .main-header-right {
   display: flex;
   align-items: center;
   margin-left: auto;
+  margin-bottom: 20px;
+
+  @media all and (max-width: 1080px) {
+    margin-bottom: 0;
+  }
 }
 
 .main-header-contacts {
   margin-right: 140px;
+
+  @media all and (max-width: 1080px) {
+    display: none;
+  }
 }
 
 .main-header-contacts-title {
@@ -36,6 +61,10 @@
   .social-buttons {
     display: inline-block;
     vertical-align: middle;
+
+    @media all and (max-width: 1080px) {
+      display: none;
+    }
   }
 }
 
@@ -43,14 +72,28 @@
   display: inline-block;
   margin-right: 40px;
   color: @c-blue;
+
+  @media all and (max-width: 1080px) {
+    font-size: 13px;
+    margin-right: 0;
+  }
 }
 
 .main-header-logo {
   margin-bottom: 20px;
-}
 
-.main-header-right {
-  margin-bottom: 20px;
+  @media all and (max-width: 1080px) {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  @media all and (max-width: 700px) {
+    width: 200px;
+
+    img {
+      width: 100%;
+    }
+  }
 }
 
 .main-header-nav {
@@ -60,6 +103,10 @@
   & > .wrapper {
     display: flex;
     justify-content: space-between;
+  }
+
+  @media all and (max-width: 1080px) {
+    display: none;
   }
 }
 

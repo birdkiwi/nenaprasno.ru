@@ -4,6 +4,16 @@
 
 .staff-member-card {
   display: flex;
+
+  @media all and (max-width: 900px) {
+    flex-direction: column;
+  }
+}
+
+.staff-member-card-photo {
+  @media all and (max-width: 900px) {
+    margin-bottom: 20px;
+  }
 }
 
 .staff-member-card-content {

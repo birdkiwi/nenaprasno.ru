@@ -1,7 +1,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=400">
+    <meta name="viewport" content="width=500">
     <title>Фонд профилактики рака</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="build/style.min.css">
@@ -26,36 +26,36 @@
 
         <div class="wrapper header-slider-about-wrapper">
             <div class="header-slider-about">
-                <div class="header-slider-about-column">
+                <div class="header-slider-about-column header-slider-about-column-logo">
                     <div class="header-slider-about-title">Screen</div>
                     <a href="#">О проекте</a>
                 </div>
-                <div class="header-slider-about-column">
+                <div class="header-slider-about-column header-slider-about-column-point">
                     <div class="header-slider-about-num">1</div>
                     Пройдите простой
                     тест и узнайте свой
                     риск рака
                 </div>
-                <div class="header-slider-about-column">
+                <div class="header-slider-about-column header-slider-about-column-point">
                     <div class="header-slider-about-num">2</div>
                     Получите
                     индивидуальный
                     график обследований
                 </div>
-                <div class="header-slider-about-column">
+                <div class="header-slider-about-column header-slider-about-column-point">
                     <div class="header-slider-about-num">3</div>
                     Запишитесь в один
                     клик в проверенную
                     клинику
                 </div>
-                <div class="header-slider-about-column">
+                <div class="header-slider-about-column header-slider-about-column-point">
                     <div class="header-slider-about-num">4</div>
                     Получайте регулярные
                     напоминания
                     о необходимых
                     обследованиях
                 </div>
-                <div class="header-slider-about-column text-center">
+                <div class="header-slider-about-column header-slider-about-column-button">
                     <a href="#" class="button button-orange button-round">Пройти тест</a>
                 </div>
             </div>

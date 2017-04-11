@@ -1,7 +1,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=400">
+    <meta name="viewport" content="width=500">
     <title>Фонд профилактики рака</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="build/style.min.css">
@@ -27,7 +27,7 @@
         <div class="fund-catalog">
             <div class="row">
                 <div class="col-xs-12 col-md-6">
-                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/qz-gU8EtAZE" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/qz-gU8EtAZE" frameborder="0" allowfullscreen style="margin-bottom: 20px;"></iframe>
                 </div>
                 <div class="col-xs-12 col-md-6">
                     <a href="#" class="fund-catalog-item">
