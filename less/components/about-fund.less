@@ -14,7 +14,7 @@
   display: flex;
   flex: 1 0 25%;
   padding: 0 15px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 
   @media all and (max-width: 600px) {
     flex-basis: 100%;
@@ -29,6 +29,19 @@
   text-align: center;
   border-radius: 3px;
   padding: 20px;
+
+  &:hover {
+    color: #fff;
+
+    .about-fund-block-arrow {
+      svg {
+        circle {
+          opacity: .6;
+          transition: all 200ms;
+        }
+      }
+    }
+  }
 }
 
 .about-fund-block-icon {
@@ -37,6 +50,10 @@
 
 .about-fund-block-text {
   margin-bottom: 20px;
+
+  @media all and (max-width: 600px) {
+    font-size: 18px;
+  }
 }
 
 .about-fund-block-arrow {
@@ -46,15 +63,6 @@
   svg {
     circle {
       transition: all 200ms;
-    }
-  }
-
-  &:hover {
-    svg {
-      circle {
-        opacity: .6;
-        transition: all 200ms;
-      }
     }
   }
 }

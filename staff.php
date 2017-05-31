@@ -24,9 +24,8 @@
             Сотрудники фонда
         </div>
 
-        <div class="row">
-            <div class="col-xs-12 col-md-3">
-                <aside class="main-sidebar">
+        <div class="main-wrapper">
+            <aside class="main-sidebar main-sidebar-left">
                     <nav class="main-sidebar-menu">
                         <ul>
                             <li><a href="#">Миссия и цели</a></li>
@@ -41,15 +40,14 @@
                         </ul>
                     </nav>
                 </aside>
-            </div>
-            <div class="col-xs-12 col-md-9">
+            <div class="main-wrapper-column">
                 <div class="staff-block">
                     <div class="row">
                         <div class="col-xs-12 col-sm-4">
                             <div class="staff-block-item">
                                 <div class="staff-block-item-photo">
                                     <a href="#">
-                                        <img src="images/tmp/staff-1.jpg" alt="Барчук Алексей Степанович">
+                                        <img class="img-responsive" src="images/tmp/staff-1.jpg" alt="Барчук Алексей Степанович">
                                     </a>
                                 </div>
                                 <div class="staff-block-item-name">
@@ -66,7 +64,7 @@
                             <div class="staff-block-item">
                                 <div class="staff-block-item-photo">
                                     <a href="#">
-                                        <img src="images/tmp/staff-2.jpg" alt="Фоминцев Илья Алексеевич">
+                                        <img class="img-responsive" src="images/tmp/staff-2.jpg" alt="Фоминцев Илья Алексеевич">
                                     </a>
                                 </div>
                                 <div class="staff-block-item-name">
@@ -81,7 +79,7 @@
                             <div class="staff-block-item">
                                 <div class="staff-block-item-photo">
                                     <a href="#">
-                                        <img src="images/tmp/staff-3.jpg" alt="Борунов Александр Васильевич">
+                                        <img class="img-responsive" src="images/tmp/staff-3.jpg" alt="Борунов Александр Васильевич">
                                     </a>
                                 </div>
                                 <div class="staff-block-item-name">
@@ -96,7 +94,7 @@
                             <div class="staff-block-item">
                                 <div class="staff-block-item-photo">
                                     <a href="#">
-                                        <img src="images/tmp/staff-4.jpg" alt="Коваль Елена Александровна">
+                                        <img class="img-responsive" src="images/tmp/staff-4.jpg" alt="Коваль Елена Александровна">
                                     </a>
                                 </div>
                                 <div class="staff-block-item-name">

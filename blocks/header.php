@@ -40,6 +40,7 @@
     </div>
     <nav class="main-header-nav">
         <div class="wrapper">
+
             <ul class="main-header-nav-list">
                 <li><a href="#">Фонд</a></li>
                 <li><a href="#">Проекты</a></li>
@@ -57,6 +58,13 @@
 </header>
 
 <nav id="offcanvas" class="main-offcanvas">
+
+    <div class="main-offcanvas-padding">
+        <div class="main-offcanvas-user">
+            <a href="#" class="link-dotted">Вход</a> / <a href="#" class="link-dotted">Регистрация</a>
+        </div>
+    </div>
+
     <ul class="main-offcanvas-menu">
         <li>
             <a href="#">Фонд</a>

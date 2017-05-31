@@ -70,7 +70,7 @@
 
             <div class="about-fund-blocks">
                 <div class="about-fund-blocks-col">
-                    <div class="about-fund-block b-green">
+                    <a href="#" class="about-fund-block b-green">
                         <div class="about-fund-block-icon">
                             <?php include "images/icon-about-fund-1.svg"; ?>
                         </div>
@@ -79,13 +79,13 @@
                             профилактики рака
                             и зачем ему помощь?
                         </div>
-                        <a href="#" class="about-fund-block-arrow">
+                        <div href="#" class="about-fund-block-arrow">
                             <?php include "images/about-fund-arrow.svg"; ?>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
                 <div class="about-fund-blocks-col">
-                    <div class="about-fund-block b-blue">
+                    <a href="#" class="about-fund-block b-blue">
                         <div class="about-fund-block-icon">
                             <?php include "images/icon-about-fund-2.svg"; ?>
                         </div>
@@ -93,13 +93,13 @@
                             Как можно помочь
                             деятельности Фонда?
                         </div>
-                        <a href="#" class="about-fund-block-arrow">
+                        <div href="#" class="about-fund-block-arrow">
                             <?php include "images/about-fund-arrow.svg"; ?>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
                 <div class="about-fund-blocks-col">
-                    <div class="about-fund-block b-orange">
+                    <a class="about-fund-block b-orange">
                         <div class="about-fund-block-icon">
                             <?php include "images/icon-about-fund-3.svg"; ?>
                         </div>
@@ -107,25 +107,24 @@
                             Куда будут потрачены
                             собранные средства?
                         </div>
-                        <a href="#" class="about-fund-block-arrow">
+                        <div href="#" class="about-fund-block-arrow">
                             <?php include "images/about-fund-arrow.svg"; ?>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
                 <div class="about-fund-blocks-col">
-                    <div class="about-fund-block b-red">
+                    <a class="about-fund-block b-red">
                         <div class="about-fund-block-icon">
                             <?php include "images/icon-about-fund-4.svg"; ?>
                         </div>
                         <div class="about-fund-block-text">
                             Где можно увидеть отчет
                             о деятельности Фонда?
-                            dsadasasdsaddsaasd asd sad asd as das da d adsd a adsd a asdadsd asda das
                         </div>
-                        <a href="#" class="about-fund-block-arrow">
+                        <div href="#" class="about-fund-block-arrow">
                             <?php include "images/about-fund-arrow.svg"; ?>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

@@ -24,20 +24,19 @@
             Отчеты фонда
         </div>
 
-        <div class="row">
-            <div class="col-xs-12 col-md-3">
-                <aside class="main-sidebar">
-                    <nav class="main-sidebar-menu">
-                        <ul>
-                            <li><a href="#">Доноры</a></li>
-                            <li><a href="#">Клиники и научные организации</a></li>
-                            <li><a href="#">Информационные партнеры</a></li>
-                            <li class="active"><a href="#">Инфраструктурные партнеры</a></li>
-                        </ul>
-                    </nav>
-                </aside>
-            </div>
-            <div class="col-xs-12 col-md-9">
+        <div class="main-wrapper">
+            <aside class="main-sidebar main-sidebar-left">
+                <nav class="main-sidebar-menu">
+                    <ul>
+                        <li><a href="#">Доноры</a></li>
+                        <li><a href="#">Клиники и научные организации</a></li>
+                        <li><a href="#">Информационные партнеры</a></li>
+                        <li class="active"><a href="#">Инфраструктурные партнеры</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <div class="main-wrapper-left">
                 <div class="partners-block m-b-md">
                     <div class="partners-block-title partners-block-title-top">
                         Генеральные партнеры

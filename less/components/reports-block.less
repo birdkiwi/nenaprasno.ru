@@ -1,7 +1,4 @@
 .reports-block {
-  background-color: #F7F6F3;
-  border-radius: 3px;
-
   .row {
     [class^="col-"] {
       display: flex;
@@ -20,11 +17,12 @@
 
 .reports-block-col-year {
   flex: 0 0 auto;
-  font-size: 14px;
+  font-size: 12px;
   color: #918F8E;
   width: 100px;
   padding-right: 35px;
   font-weight: bold;
+  padding-top: 15px;
 
   @media all and (max-width: 600px) {
     width: 100%;
@@ -45,23 +43,24 @@
 }
 
 .reports-block-title {
-  color: rgba(43, 41, 41, 0.8);
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 22px;
+  border-bottom: 1px solid #d3d2d3;
+  padding-bottom: 15px;
   margin-bottom: 15px;
 }
 
 .reports-block-item {
   display: flex;
-  background-color: #FFFFFF;
+  width: 100%;
+  background-color: #f6f4f1;
   border: 1px solid transparent;
-  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.12);
   padding: 15px;
   border-radius: 2px;
   color: #222222;
 
   &:hover,
   &.active {
+    background-color: #fff;
     border-color: #00ADF1;
     transition: all 200ms;
   }

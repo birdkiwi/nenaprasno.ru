@@ -54,9 +54,6 @@
                                 </div>
                             </div>
                             <div class="publications-block-item-large-content">
-                                <div class="publications-block-item-large-date">
-                                    27 июля
-                                </div>
                                 <div class="publications-block-item-large-title">
                                     <a href="#">
                                         Акция по раннему выявлению
@@ -66,29 +63,8 @@
                                 <div class="publications-block-item-large-text">
                                     Тестирование на риски рака на фестивале науки и технологий
                                 </div>
-                            </div>
-                        </div>
-                        <div class="publications-block-item-large publications-block-item-large-vert">
-                            <div class="publications-block-item-large-image">
-                                <div class="publications-block-item-large-image-wrap">
-                                    <a href="#">
-                                        <img src="http://placekitten.com/270/180" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="publications-block-item-large-content">
                                 <div class="publications-block-item-large-date">
                                     27 июля
-                                </div>
-                                <div class="publications-block-item-large-title">
-                                    <a href="#">
-                                        Тестирование на риски рака
-                                        на фестивале науки и технологий
-                                        GEEK PICNIC
-                                    </a>
-                                </div>
-                                <div class="publications-block-item-large-text">
-                                    Тестирование на риски рака на фестивале науки и технологий
                                 </div>
                             </div>
                         </div>
@@ -101,9 +77,6 @@
                                 </div>
                             </div>
                             <div class="publications-block-item-large-content">
-                                <div class="publications-block-item-large-date">
-                                    27 июля
-                                </div>
                                 <div class="publications-block-item-large-title">
                                     <a href="#">
                                         Тестирование на риски рака
@@ -113,6 +86,33 @@
                                 </div>
                                 <div class="publications-block-item-large-text">
                                     Тестирование на риски рака на фестивале науки и технологий
+                                </div>
+                                <div class="publications-block-item-large-date">
+                                    27 июля
+                                </div>
+                            </div>
+                        </div>
+                        <div class="publications-block-item-large publications-block-item-large-vert">
+                            <div class="publications-block-item-large-image">
+                                <div class="publications-block-item-large-image-wrap">
+                                    <a href="#">
+                                        <img src="http://placekitten.com/270/180" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="publications-block-item-large-content">
+                                <div class="publications-block-item-large-title">
+                                    <a href="#">
+                                        Тестирование на риски рака
+                                        на фестивале науки и технологий
+                                        GEEK PICNIC
+                                    </a>
+                                </div>
+                                <div class="publications-block-item-large-text">
+                                    Тестирование на риски рака на фестивале науки и технологий
+                                </div>
+                                <div class="publications-block-item-large-date">
+                                    27 июля
                                 </div>
                             </div>
                         </div>
@@ -127,14 +127,14 @@
                                     </div>
                                 </div>
                                 <div class="publications-block-item-small-content">
-                                    <div class="publications-block-item-small-date">
-                                        27 июля
-                                    </div>
                                     <div class="publications-block-item-small-title">
                                         <a href="#">
                                             Система SCREEN
                                             на Alfa Future People
                                         </a>
+                                    </div>
+                                    <div class="publications-block-item-small-date">
+                                        27 июля
                                     </div>
                                 </div>
                             </div>
@@ -147,9 +147,6 @@
                                     </div>
                                 </div>
                                 <div class="publications-block-item-small-content">
-                                    <div class="publications-block-item-small-date">
-                                        27 июля
-                                    </div>
                                     <div class="publications-block-item-small-title">
                                         <a href="#">
                                             Тестирование на риски
@@ -157,6 +154,9 @@
                                             науки и технологий
                                         </a>
                                     </div>
+                                    <div class="publications-block-item-small-date">
+                                        27 июля
+                                    </div>
                                 </div>
                             </div>
                             <div class="publications-block-item-small publications-block-item-small-1-3">
@@ -168,9 +168,6 @@
                                     </div>
                                 </div>
                                 <div class="publications-block-item-small-content">
-                                    <div class="publications-block-item-small-date">
-                                        27 июля
-                                    </div>
                                     <div class="publications-block-item-small-title">
                                         <a href="#">
                                             Большой
@@ -178,6 +175,9 @@
                                             концерт
                                         </a>
                                     </div>
+                                    <div class="publications-block-item-small-date">
+                                        27 июля
+                                    </div>
                                 </div>
                             </div>
                             <div class="publications-block-item-small publications-block-item-small-1-3">
@@ -189,15 +189,15 @@
                                     </div>
                                 </div>
                                 <div class="publications-block-item-small-content">
-                                    <div class="publications-block-item-small-date">
-                                        27 июля
-                                    </div>
                                     <div class="publications-block-item-small-title">
                                         <a href="#">
                                             Пресс-конференция,
                                             посвященная запуску
                                             SCREEN
                                         </a>
+                                    </div>
+                                    <div class="publications-block-item-small-date">
+                                        27 июля
                                     </div>
                                 </div>
                             </div>
@@ -211,14 +211,14 @@
                                     </div>
                                 </div>
                                 <div class="publications-block-item-small-content">
-                                    <div class="publications-block-item-small-date">
-                                        27 июля
-                                    </div>
                                     <div class="publications-block-item-small-title">
                                         <a href="#">
                                             Система SCREEN
                                             на Alfa Future People
                                         </a>
+                                    </div>
+                                    <div class="publications-block-item-small-date">
+                                        27 июля
                                     </div>
                                 </div>
                             </div>
@@ -231,9 +231,6 @@
                                     </div>
                                 </div>
                                 <div class="publications-block-item-small-content">
-                                    <div class="publications-block-item-small-date">
-                                        27 июля
-                                    </div>
                                     <div class="publications-block-item-small-title">
                                         <a href="#">
                                             Тестирование на риски
@@ -241,6 +238,9 @@
                                             науки и технологий
                                         </a>
                                     </div>
+                                    <div class="publications-block-item-small-date">
+                                        27 июля
+                                    </div>
                                 </div>
                             </div>
                             <div class="publications-block-item-small publications-block-item-small-1-3">
@@ -252,9 +252,6 @@
                                     </div>
                                 </div>
                                 <div class="publications-block-item-small-content">
-                                    <div class="publications-block-item-small-date">
-                                        27 июля
-                                    </div>
                                     <div class="publications-block-item-small-title">
                                         <a href="#">
                                             Большой
@@ -262,6 +259,9 @@
                                             концерт
                                         </a>
                                     </div>
+                                    <div class="publications-block-item-small-date">
+                                        27 июля
+                                    </div>
                                 </div>
                             </div>
                             <div class="publications-block-item-small publications-block-item-small-1-3">
@@ -273,15 +273,15 @@
                                     </div>
                                 </div>
                                 <div class="publications-block-item-small-content">
-                                    <div class="publications-block-item-small-date">
-                                        27 июля
-                                    </div>
                                     <div class="publications-block-item-small-title">
                                         <a href="#">
                                             Пресс-конференция,
                                             посвященная запуску
                                             SCREEN
                                         </a>
+                                    </div>
+                                    <div class="publications-block-item-small-date">
+                                        27 июля
                                     </div>
                                 </div>
                             </div>

@@ -122,7 +122,7 @@
                                         Ваше имя <sup>*</sup>
                                     </label>
 
-                                    <input type="text" name="name" class="contacts-feedback-control-input" required>
+                                    <input type="text" name="name" class="contacts-feedback-control-input" required placeholder="Например: Иван">
                                 </div>
                             </div>
                             <div class="col-xs-6">
@@ -131,7 +131,7 @@
                                         Email <sup>*</sup>
                                     </label>
 
-                                    <input type="email" name="email" class="contacts-feedback-control-input" required>
+                                    <input type="email" name="email" class="contacts-feedback-control-input" required placeholder="ivan@example.ru">
                                 </div>
                             </div>
                         </div>
@@ -140,14 +140,14 @@
                                 Тема сообщения <sup>*</sup>
                             </label>
 
-                            <input type="text" name="subject" class="contacts-feedback-control-input" required>
+                            <input type="text" name="subject" class="contacts-feedback-control-input" required placeholder="Тема сообщения даст понимание о чем вы напишете">
                         </div>
                         <div class="contacts-feedback-control">
                             <label class="contacts-feedback-control-label">
                                 Сообщение
                             </label>
 
-                            <textarea required name="message" class="contacts-feedback-control-textarea"></textarea>
+                            <textarea required name="message" class="contacts-feedback-control-textarea" placeholder="Что бы вы хотели донести до нас?"></textarea>
                         </div>
 
                         <button type="submit" class="button button-round button-orange contacts-feedback-submit-button">

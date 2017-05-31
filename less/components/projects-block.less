@@ -26,7 +26,7 @@
 }
 
 .projects-block-item-title {
-  font-size: 14px;
+  font-size: 17px;
   color: #222;
   font-weight: bold;
   margin-top: 0;
@@ -36,7 +36,7 @@
 .projects-block-item-desc {
   position: relative;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 17px;
   height: 100px;
   overflow: hidden;
 
@@ -56,6 +56,10 @@
   margin-top: 40px;
   margin-bottom: 20px;
   text-align: center;
+
+  @media all and (max-width: 900px) {
+    margin-top: 20px;
+  }
 }
 
 .projects-block-item-image {
@@ -96,6 +100,7 @@
 
   b {
     color: @c-blue;
+    white-space: nowrap;
   }
 }
 
@@ -104,6 +109,7 @@
 
   b {
     color: rgba(43, 41, 41, 0.5);
+    white-space: nowrap;
   }
 }
 

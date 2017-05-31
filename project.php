@@ -159,8 +159,8 @@
         </div>
     </div>
     <div class="wrapper">
-        <div class="row">
-            <div class="col-xs-12 col-md-9">
+        <div class="main-wrapper">
+            <div class="main-wrapper-column">
                 <div class="article-block m-b-lg">
                     <h2>О проекте</h2>
 
@@ -263,39 +263,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-3">
+            <div class="main-sidebar main-sidebar-wide main-sidebar-right">
                 <div class="news-module m-b-lg">
                     <div class="news-module-title">Новости проекта</div>
-                    
-                    <a href="#" class="news-module-item">
-                        <div class="news-module-item-image">
-                            <img src="http://placekitten.com/180/180" width="90" height="90" alt="">
-                        </div>
-
-                        <div class="news-module-item-content">
-                            <div class="news-module-item-date">27 июля</div>
-                            <div class="news-module-item-text">
-                                Тестирование на риски рака
-                                на фестивале науки
-                                и технологий
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#" class="news-module-item">
-                        <div class="news-module-item-content">
-                            <div class="news-module-item-date">27 июля</div>
-                            <div class="news-module-item-text">
-                                Тестирование на риски рака
-                                на фестивале науки
-                                и технологий
-                            </div>
-                        </div>
-                    </a>
 
                     <a href="#" class="news-module-item">
                         <div class="news-module-item-image">
-                            <img src="http://placekitten.com/180/180" width="90" height="90" alt="">
+                            <img class="img-radius" src="http://placekitten.com/180/180" width="90" height="90" alt="">
                         </div>
 
                         <div class="news-module-item-content">
@@ -308,7 +282,33 @@
                         </div>
                     </a>
 
-                    <a href="#" class="news-module-read-all">Посмотреть все новости</a>
+                    <a href="#" class="news-module-item">
+                        <div class="news-module-item-content">
+                            <div class="news-module-item-date">27 июля</div>
+                            <div class="news-module-item-text">
+                                Тестирование на риски рака
+                                на фестивале науки
+                                и технологий
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="news-module-item">
+                        <div class="news-module-item-image">
+                            <img class="img-radius" src="http://placekitten.com/180/180" width="90" height="90" alt="">
+                        </div>
+
+                        <div class="news-module-item-content">
+                            <div class="news-module-item-date">27 июля</div>
+                            <div class="news-module-item-text">
+                                Тестирование на риски рака
+                                на фестивале науки
+                                и технологий
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="news-module-read-all">Показать ещё</a>
                 </div>
             </div>
         </div>
