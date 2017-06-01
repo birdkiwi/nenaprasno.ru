@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=500">
     <title>Фонд профилактики рака</title>
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="favicon.ico">
     <link rel="stylesheet" href="build/style.min.css">
 </head>
 <body>
