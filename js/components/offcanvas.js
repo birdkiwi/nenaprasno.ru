@@ -7,11 +7,12 @@
     }
 
     $('.js-offcanvas').click(function () {
-        var offcanvas = '#offcanvas';
+        var offcanvasOverlay = '#offcanvas',
+            offcanvas = '#offcanvas > .main-offcanvas';
 
         function show() {
             $('.js-offcanvas').addClass('active');
-            $(offcanvas).addClass('active');
+            $(offcanvasOverlay).addClass('active');
 
             $(document).on('click', 'body', function (e) {
                 hideEvent(e, offcanvas, hide);
@@ -19,7 +20,7 @@
         }
 
         function hide() {
-            $('.js-offcanvas, ' + offcanvas).removeClass('active');
+            $('.js-offcanvas, ' + offcanvasOverlay).removeClass('active');
         }
 
         if ($(this).hasClass('active')) {

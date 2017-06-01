@@ -10,7 +10,7 @@
 
 <?php include "blocks/header.php"; ?>
 
-<main class="main-content">
+<main class="main-content b-gray">
     <div class="wrapper">
         <div class="breadcrumbs">
             <ul>

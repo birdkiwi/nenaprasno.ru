@@ -24,25 +24,23 @@
             События
         </div>
 
-        <div class="row">
-            <div class="col-xs-12 col-md-3">
-                <aside class="main-sidebar">
-                    <nav class="main-sidebar-menu">
-                        <ul>
-                            <li><a href="#">Миссия и цели</a></li>
-                            <li><a href="#">Попечительский совет</a></li>
-                            <li><a href="#">Сотрудники Фонда</a></li>
-                            <li class="active"><a href="#">События</a></li>
-                            <li><a href="#">Учредительные документы</a></li>
-                            <li><a href="#">Отчеты Фонда</a></li>
-                            <li><a href="#">Новости СМИ о Фонде</a></li>
-                            <li><a href="#">Благодарственные письма</a></li>
-                            <li><a href="#">Банковские реквизиты</a></li>
-                        </ul>
-                    </nav>
-                </aside>
-            </div>
-            <div class="col-xs-12 col-md-9">
+        <div class="main-wrapper">
+            <aside class="main-sidebar main-sidebar-left">
+                <nav class="main-sidebar-menu">
+                    <ul>
+                        <li><a href="#">Миссия и цели</a></li>
+                        <li><a href="#">Попечительский совет</a></li>
+                        <li><a href="#">Сотрудники Фонда</a></li>
+                        <li class="active"><a href="#">События</a></li>
+                        <li><a href="#">Учредительные документы</a></li>
+                        <li><a href="#">Отчеты Фонда</a></li>
+                        <li><a href="#">Новости СМИ о Фонде</a></li>
+                        <li><a href="#">Благодарственные письма</a></li>
+                        <li><a href="#">Банковские реквизиты</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <div class="main-wrapper-column">
                 <div class="publications-block">
                     <div class="publications-block-items">
                         <div class="publications-block-item-large publications-block-item-large-vert">
