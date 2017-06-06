@@ -1,5 +1,5 @@
 <div class="partners-block m-b-md">
-    <div class="partners-block-title">
+    <div class="partners-block-title partners-block-title-top">
         Генеральные партнеры
     </div>
 

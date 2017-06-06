@@ -58,6 +58,14 @@
 
                     <p>В настоящий момент ведется работа по двум направлениям - раннее выявление рака молочной железы и рака шейки матки. Кроме непосредственного выявления рака, целью проекта так же является выявление слабых мест в профильных службах регионов. Отработаны массовые акции по раннему выявлению рака молочной железы в 11 городах (Санкт-Петербург, Самара, Вологда, Иваново, Ханты-Мансийск, Нарьян-Мар, Воронеж, Красноярск, Архангельск, Екатеринбург, Киров).</p>
 
+                    <ul>
+                        <li>Элемент списка 1</li>
+                        <li>Элемент списка 2</li>
+                        <li>Элемент списка 3</li>
+                        <li>Элемент списка 4</li>
+                        <li>Элемент списка 5</li>
+                    </ul>
+
                     <ul class="ul-blue">
                         <li>
                             Адекватная методика сбора статистики по заболеваемости и смертности
@@ -127,6 +135,50 @@
                                 </a>
                             </div>
                         <?php endfor; ?>
+                    </div>
+
+                    <h1>Заголовок H1</h1>
+                    <h2>Заголовок H2</h2>
+                    <h3>Заголовок H3</h3>
+                    <h4>Заголовок H4</h4>
+
+                    <p class="large-text">Абзац с классом .large-text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam delectus dicta dignissimos eaque excepturi ipsa iure, perferendis quo tempora totam unde voluptates. Consequatur fuga illum in maxime perferendis repellendus voluptate.</p>
+
+                    <p>
+                        Обычный текст. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti impedit labore quas vero. Consequuntur deleniti, sed. Accusantium commodi dolore dolorem doloremque ea eum illo, magni quidem suscipit totam, voluptatem voluptatibus?
+                    </p>
+
+                    <p>
+                        <small>Текст внутри тега small. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quae quas totam? A alias aliquam asperiores, assumenda at debitis, eius fuga illum ipsam magnam numquam placeat quibusdam, quos sed tempora.</small>
+                    </p>
+
+                    <div class="quotation-block">
+                        <div class="quotation-block-author">
+                            <div class="quotation-block-author-photo">
+                                <img class="img-responsive" src="images/tmp/staff-2.jpg" alt="Илья Фоминцев">
+                            </div>
+                            <div class="quotation-block-author-name">
+                                Илья Фоминцев,
+                            </div>
+                            <div class="quotation-block-author-title">
+                                исполнительный директор «Фонда профилактики рака»
+                            </div>
+                            
+                            
+                            
+                        </div>
+
+                        <div class="quotation-block-text">
+                            <p>
+                                В 2015 году мы запустили собственный образовательный проект &mdash; «Высшую школу онкологии». Это наш ответ на ухудшающуюся  ситуацию с системой образования специалистов в сфере онкологии. Ситуация аховая, мы видим как работают и как принимают решения онкологи по всей стране и это не просто не радует &mdash; это ужасает.
+                            </p>
+                            <p>
+                                Мы поставили перед собой цель &mdash; обучить и подготовить по международным стандартам новое поколение специалистов-онкологов, которые смогут поменять ситуацию в корне и породить своих учеников. 
+                            </p>
+                            <p>
+                                Участники проекта, выпускники российских медицинских вузов, получают возможность пройти бесплатное двухгодичное обучение в ординатуре НИИ Онкологии им. Н.Н.Петрова, доступ к профессиональной учебной литературе и курсам английского языка, участвуют в мастер-классах и обучающих семинарах с крупнейшими российскими и зарубежными специалистами-онкологами. Мы готовим элиту отечественной онкологии, врачей, которые в будущем смогут внедрить любой проект в сфере онкологии в любом регионе России.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
