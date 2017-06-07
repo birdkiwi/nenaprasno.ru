@@ -15975,7 +15975,19 @@ $(document).ready(function () {
         $(window).resize(function(){
             headerSlider.reloadSlider();
         });
-    })
+    });
+
+    $('.js-header-about-slider').each(function () {
+        var headerSliderAbout = $(this).bxSlider({
+            infiniteLoop: true,
+            pager: false,
+            controls: true
+        });
+
+        $(window).resize(function(){
+            headerSliderAbout.reloadSlider();
+        });
+    });
 })();
 (function() {
     function hideEvent(e, closestEl, hideFunc) {

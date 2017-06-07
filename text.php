@@ -1,3 +1,4 @@
+<!doctype html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -163,9 +164,6 @@
                             <div class="quotation-block-author-title">
                                 исполнительный директор «Фонда профилактики рака»
                             </div>
-                            
-                            
-                            
                         </div>
 
                         <div class="quotation-block-text">
