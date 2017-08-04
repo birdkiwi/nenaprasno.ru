@@ -1,5 +1,5 @@
 .main-header {
-  padding-top: 20px;
+  padding-top: 10px;
   background-color: #fff;
 
   & > .wrapper {
@@ -21,10 +21,10 @@
   }
 }
 
+
 .main-header-toggler {
   display: none;
   margin-right: 5px;
-  padding: 15px 15px 15px 0;
 
   @media all and (max-width: 1080px) {
     display: block;
@@ -32,10 +32,11 @@
 }
 
 .main-header-right {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-  margin-bottom: 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: auto;
 
   @media all and (max-width: 1080px) {
     margin-bottom: 0;
@@ -50,20 +51,49 @@
   }
 }
 
-.main-header-contacts-title {
-  color: #777777;
-  font-size: 14px;
-  margin-bottom: 5px;
+.phone-col{
+  margin-right: 30px;
+}
+.mail-col{
+  margin-right:100px;
 }
 
+.main-header-contacts-title {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align:center;
+}
 .main-header-contacts-phone {
   display: block;
   color: #2B2929;
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 5px;
+  font-size: 16px;  
 }
-
+.main-header-contacts-email {
+  display: block;
+  color: #2B2929;
+  font-size: 16px;
+  margin-top:18px;
+}
+.main-header-contacts img{
+  vertical-align: bottom;
+}
+.main-header-contacts-email img{
+  width:16px;
+  height:16px;
+}
+.wrapper-nav {
+  max-width: 1170px;
+    margin: 0 auto;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
 .main-header-buttons {
   .social-buttons {
     display: inline-block;
@@ -91,15 +121,17 @@
 }
 
 .main-header-logo {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
   @media all and (max-width: 1080px) {
-    width: 220px;
+    width: 84%;
     display: inline-block;
     margin-bottom: 0;
+    text-align: center;
 
     img {
-      width: 100%;
+    width: 130px;
+    height: auto;
     }
   }
 }
