@@ -8,8 +8,61 @@
     <link rel="stylesheet" href="build/style.min.css">
 </head>
 <body>
-
 <?php include "blocks/header.php"; ?>
+<div id="offcanvas" class="main-offcanvas-overlay">
+    <nav class="main-offcanvas">
+        <div class="main-offcanvas-padding">
+            <div class="main-offcanvas-user">
+                <a href="#" class="link-dotted">Вход</a> / <a href="#" class="link-dotted">Регистрация</a>
+            </div>
+        </div>
+
+        <ul class="main-offcanvas-menu">
+            <li>
+                <a href="#">Фонд</a>
+            </li>
+            <li>
+                <a href="#">Проекты</a>
+            </li>
+            <li>
+                <a href="#">Как помочь?</a>
+            </li>
+            <li>
+                <a href="#">Публикации</a>
+            </li>
+            <li class="active">
+                <a href="#">Партнеры</a>
+
+                <ul>
+                    <li><a href="#">Доноры</a></li>
+                    <li><a href="#">Клиники и научные организации</a></li>
+                    <li><a href="#">Информационные партнеры</a></li>
+                    <li><a href="#">Инфраструктурные партнеры</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Контакты</a>
+            </li>
+            <li>
+                <a href="#">Помочь прямо сейчас</a>
+            </li>
+        </ul>
+
+        <div class="main-offcanvas-padding">
+            <div class="social-buttons">
+                <a href="#" target="_blank" title="Вконтакте">
+                    <?php include "images/icon-social-vk.svg"; ?>
+                </a>
+                <a href="#" target="_blank" title="Facebook">
+                    <?php include "images/icon-social-facebook.svg"; ?>
+                </a>
+                <a href="#" target="_blank" title="Twitter">
+                    <?php include "images/icon-social-twitter.svg"; ?>
+                </a>
+            </div>
+        </div>
+    </nav>
+</div>
 
 <main class="main-content">
     <section class="header-slider-wrapper">
