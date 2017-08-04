@@ -7,7 +7,7 @@
         </a>
         <div class="main-header-logo">
             <a href="#">
-                <img height="60px;" src="images/logo.png" alt="Фонд профилактики рака. Живу не напрасно.">
+                <img height="60px;" src="images/logo.svg" alt="Фонд профилактики рака. Живу не напрасно.">
             </a>
         </div>
         <div class="main-header-right">
