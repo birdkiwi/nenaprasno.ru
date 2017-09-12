@@ -67,7 +67,7 @@
 <main class="main-content">
     <section class="header-slider-wrapper">
         <div class="header-slider js-header-slider">
-            <div class="header-slider-item" style="background-image: url('images/slider/slider-image-1.jpg');"></div>
+            <div class="header-slider-item" style="background-image: url('images/slider/slider-image-2.jpg');"></div>
             <div class="header-slider-item" style="background-image: url('images/slider/slider-image-1.jpg');"></div>
         </div>
 
@@ -879,6 +879,180 @@
             </div>
         </div>
     </section>
+
+    <section class="how-test-works-block p-t-xxl p-b-xxl">
+        <div class="wrapper">
+            <div class="block-title how-test-works-block-title">
+                Как работает тестирование?
+            </div>
+
+            <div class="how-test-works-block-items">
+                <div class="how-test-works-block-item">
+                    <div class="how-test-works-block-item-icon">
+                        <?php include "images/icon-how-test-works-test.svg"; ?>
+                    </div>
+                    <div class="how-test-works-block-item-text">
+                        Пройдите простой тест и узнайте свой риск рака
+                    </div>
+
+                    <div class="how-test-works-block-item-num">
+                        1
+                    </div>
+                </div>
+
+                <div class="how-test-works-block-item">
+                    <div class="how-test-works-block-item-icon">
+                        <?php include "images/icon-how-test-works-calendar.svg"; ?>
+                    </div>
+                    <div class="how-test-works-block-item-text">
+                        Получите индивидуальный
+                        график обследований
+                    </div>
+
+                    <div class="how-test-works-block-item-num">
+                        2
+                    </div>
+                </div>
+
+                <div class="how-test-works-block-item">
+                    <div class="how-test-works-block-item-icon">
+                        <?php include "images/icon-how-test-works-clinic.svg"; ?>
+                    </div>
+                    <div class="how-test-works-block-item-text">
+                        Запишитесь в один клик
+                        в проверенную клинику
+                    </div>
+                    <div class="how-test-works-block-item-num">
+                        3
+                    </div>
+                </div>
+
+                <div class="how-test-works-block-item">
+                    <div class="how-test-works-block-item-icon">
+                        <?php include "images/icon-how-test-works-email.svg"; ?>
+                    </div>
+                    <div class="how-test-works-block-item-text">
+                        Получайте регулярные
+                        напоминания о необходимых
+                        обследованиях на почту
+                    </div>
+                    <div class="how-test-works-block-item-num">
+                        4
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="logotypes-block p-t-xxl p-b-xxl">
+        <div class="wrapper">
+            <div class="block-title logotypes-block-title">
+                Спонсоры
+            </div>
+
+            <div class="logotypes-block-slider">
+                <div class="logotypes-block-slider-items js-logotypes-slider">
+                    <div class="logotypes-block-slider-item">
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/takie-dela.png" alt="Такие дела">
+                        </a>
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/village.png" alt="The Village">
+                        </a>
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/dozhd.png" alt="Дождь LIVE">
+                        </a>
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/lenta.png" alt="Lenta.ru">
+                        </a>
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/question.png" alt="The Question">
+                        </a>
+                    </div>
+                    <div class="logotypes-block-slider-item">
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/takie-dela.png" alt="Такие дела">
+                        </a>
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/village.png" alt="The Village">
+                        </a>
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/dozhd.png" alt="Дождь LIVE">
+                        </a>
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/lenta.png" alt="Lenta.ru">
+                        </a>
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/question.png" alt="The Question">
+                        </a>
+                    </div>
+                </div>
+
+                <a href="#" class="logotypes-block-slider-prev js-logotypes-slider-prev">
+                    <?php include "images/slider-arrow-left.svg"; ?>
+                </a>
+                <a href="#" class="logotypes-block-slider-next js-logotypes-slider-next">
+                    <?php include "images/slider-arrow-right.svg"; ?>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="logotypes-block p-t-xxl p-b-xxl">
+        <div class="wrapper">
+            <div class="block-title logotypes-block-title">
+                Информационные партнеры
+            </div>
+
+            <div class="logotypes-block-slider">
+                <div class="logotypes-block-slider-items js-logotypes-slider">
+                    <div class="logotypes-block-slider-item">
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/metro.png" alt="Metro">
+                        </a>
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/zdorovye.png" alt="Здоровье">
+                        </a>
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/doctor-piter.png" alt="Доктор Питер">
+                        </a>
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/fontanka.png" alt="Фонтанка.ру">
+                        </a>
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/spbvedomosti.png" alt="СПБ Ведомости">
+                        </a>
+                    </div>
+
+                    <div class="logotypes-block-slider-item">
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/metro.png" alt="Metro">
+                        </a>
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/zdorovye.png" alt="Здоровье">
+                        </a>
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/doctor-piter.png" alt="Доктор Питер">
+                        </a>
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/fontanka.png" alt="Фонтанка.ру">
+                        </a>
+                        <a href="#" class="logotypes-block-slider-image">
+                            <img src="images/tmp/spbvedomosti.png" alt="СПБ Ведомости">
+                        </a>
+                    </div>
+                </div>
+
+                <a href="#" class="logotypes-block-slider-prev js-logotypes-slider-prev">
+                    <?php include "images/slider-arrow-left.svg"; ?>
+                </a>
+                <a href="#" class="logotypes-block-slider-next js-logotypes-slider-next">
+                    <?php include "images/slider-arrow-right.svg"; ?>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <?php include "blocks/donate-block.php"; ?>
 </main>
 <footer class="main-footer">
