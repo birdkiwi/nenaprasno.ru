@@ -944,6 +944,20 @@
         </div>
     </section>
 
+    <section class="testers-counter-block">
+        <div class="wrapper">
+            <div class="testers-counter-block-icon">
+                <img src="images/icons-testers.png" alt="">
+            </div>
+            <div class="testers-counter-block-num">
+                146 083
+            </div>
+            <div class="testers-counter-block-desc">
+                людей протестировано
+            </div>
+        </div>
+    </section>
+
     <section class="logotypes-block p-t-xxl p-b-xxl">
         <div class="wrapper">
             <div class="block-title logotypes-block-title">
