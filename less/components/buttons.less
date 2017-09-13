@@ -82,3 +82,14 @@
   }
 }
 
+.button-red {
+  background-color: @c-red;
+  border-color: @c-red;
+  color: #fff;
+
+  &:hover {
+    color: #fff;
+    background-color: lighten(@c-red, 10%);
+    border-color: lighten(@c-red, 10%);
+  }
+}

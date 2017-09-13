@@ -62,7 +62,7 @@
             </ul>
 
             <div class="main-header-nav-right">
-                <a href="#" class="button button-orange">Помочь прямо сейчас</a>
+                <a href="#" class="button button-red">Помочь прямо сейчас</a>
             </div>
         </div>
     </nav>
