@@ -24,6 +24,7 @@
     "gulp-watch": "^4.3.11",
     "inputmask": "^3.3.10",
     "jquery": "^3.2.1",
-    "normalize.css": "^7.0.0"
+    "normalize.css": "^7.0.0",
+    "tippy.js": "^1.4.1"
   }
 }

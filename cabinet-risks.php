@@ -150,49 +150,87 @@
                                 Октябрь 2018
                             </div>
                             <div class="cabinet-risks-recommendation-clinics">
-                                <a href="#risk-1-clinics" data-toggle data-toggle-self-deactive>
+                                <a data-tooltip data-html="risk-1-clinics" data-position="bottom" data-trigger="click" data-arrow="true">
                                     <?php include "images/icon-geomarker.svg"; ?>
                                     <span class="link-dotted">
                                         Список клиник
                                     </span>
                                 </a>
 
-                                <div id="risk-1-clinics" class="cabinet-risks-recommendation-clinics-pop">
-                                    <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-pop-item">
-                                        <div class="cabinet-risks-recommendation-clinics-name">
-                                            МРНЦ им. А.Ф.Цыба
-                                        </div>
-                                        <div class="cabinet-risks-recommendation-clinics-desc">
-                                            Обнинск, ул.Королева, д.4
-                                        </div>
-                                    </a>
+                                <div id="risk-1-clinics" style="display: none">
+                                    <div class="cabinet-risks-recommendation-clinics-list">
+                                        <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-list-item">
+                                            <div class="cabinet-risks-recommendation-clinics-name">
+                                                МРНЦ им. А.Ф.Цыба
+                                            </div>
+                                            <div class="cabinet-risks-recommendation-clinics-desc">
+                                                Обнинск, ул.Королева, д.4
+                                            </div>
+                                        </a>
 
-                                    <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-pop-item">
-                                        <div class="cabinet-risks-recommendation-clinics-name">
-                                            МНИОИ им. П.А. Герцена
-                                        </div>
-                                        <div class="cabinet-risks-recommendation-clinics-desc">
-                                            2-й Боткинский пр., д.3
-                                        </div>
-                                    </a>
+                                        <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-list-item">
+                                            <div class="cabinet-risks-recommendation-clinics-name">
+                                                МНИОИ им. П.А. Герцена
+                                            </div>
+                                            <div class="cabinet-risks-recommendation-clinics-desc">
+                                                2-й Боткинский пр., д.3
+                                            </div>
+                                        </a>
 
-                                    <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-pop-item">
-                                        <div class="cabinet-risks-recommendation-clinics-name">
-                                            РОНЦ им. Н.Н. Блохина
-                                        </div>
-                                        <div class="cabinet-risks-recommendation-clinics-desc">
-                                            Каширское шоссе, дом 23
-                                        </div>
-                                    </a>
+                                        <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-list-item">
+                                            <div class="cabinet-risks-recommendation-clinics-name">
+                                                РОНЦ им. Н.Н. Блохина
+                                            </div>
+                                            <div class="cabinet-risks-recommendation-clinics-desc">
+                                                Каширское шоссе, дом 23
+                                            </div>
+                                        </a>
 
-                                    <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-pop-item">
-                                        <div class="cabinet-risks-recommendation-clinics-name">
-                                            Московская городская онкологическая больница № 62
-                                        </div>
-                                        <div class="cabinet-risks-recommendation-clinics-desc">
-                                            п/о Степановское, поселок Истра, 27
-                                        </div>
-                                    </a>
+                                        <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-list-item">
+                                            <div class="cabinet-risks-recommendation-clinics-name">
+                                                Московская городская онкологическая больница № 62
+                                            </div>
+                                            <div class="cabinet-risks-recommendation-clinics-desc">
+                                                п/о Степановское, поселок Истра, 27
+                                            </div>
+                                        </a>
+
+                                        <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-list-item">
+                                            <div class="cabinet-risks-recommendation-clinics-name">
+                                                МРНЦ им. А.Ф.Цыба
+                                            </div>
+                                            <div class="cabinet-risks-recommendation-clinics-desc">
+                                                Обнинск, ул.Королева, д.4
+                                            </div>
+                                        </a>
+
+                                        <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-list-item">
+                                            <div class="cabinet-risks-recommendation-clinics-name">
+                                                МНИОИ им. П.А. Герцена
+                                            </div>
+                                            <div class="cabinet-risks-recommendation-clinics-desc">
+                                                2-й Боткинский пр., д.3
+                                            </div>
+                                        </a>
+
+                                        <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-list-item">
+                                            <div class="cabinet-risks-recommendation-clinics-name">
+                                                РОНЦ им. Н.Н. Блохина
+                                            </div>
+                                            <div class="cabinet-risks-recommendation-clinics-desc">
+                                                Каширское шоссе, дом 23
+                                            </div>
+                                        </a>
+
+                                        <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-list-item">
+                                            <div class="cabinet-risks-recommendation-clinics-name">
+                                                Московская городская онкологическая больница № 62
+                                            </div>
+                                            <div class="cabinet-risks-recommendation-clinics-desc">
+                                                п/о Степановское, поселок Истра, 27
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                             <div class="cabinet-risks-recommendation-button">
@@ -213,49 +251,51 @@
                                 Октябрь 2018
                             </div>
                             <div class="cabinet-risks-recommendation-clinics">
-                                <a href="#risk-2-clinics" data-toggle data-toggle-self-deactive>
+                                <a data-tooltip data-html="risk-2-clinics" data-position="bottom" data-trigger="click" data-arrow="true">
                                     <?php include "images/icon-geomarker.svg"; ?>
                                     <span class="link-dotted">
                                         Список клиник
                                     </span>
                                 </a>
 
-                                <div id="risk-2-clinics" class="cabinet-risks-recommendation-clinics-pop">
-                                    <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-pop-item">
-                                        <div class="cabinet-risks-recommendation-clinics-name">
-                                            МРНЦ им. А.Ф.Цыба
-                                        </div>
-                                        <div class="cabinet-risks-recommendation-clinics-desc">
-                                            Обнинск, ул.Королева, д.4
-                                        </div>
-                                    </a>
+                                <div id="risk-2-clinics" style="display: none">
+                                    <div class="cabinet-risks-recommendation-clinics-list">
+                                        <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-list-item">
+                                            <div class="cabinet-risks-recommendation-clinics-name">
+                                                МРНЦ им. А.Ф.Цыба
+                                            </div>
+                                            <div class="cabinet-risks-recommendation-clinics-desc">
+                                                Обнинск, ул.Королева, д.4
+                                            </div>
+                                        </a>
 
-                                    <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-pop-item">
-                                        <div class="cabinet-risks-recommendation-clinics-name">
-                                            МНИОИ им. П.А. Герцена
-                                        </div>
-                                        <div class="cabinet-risks-recommendation-clinics-desc">
-                                            2-й Боткинский пр., д.3
-                                        </div>
-                                    </a>
+                                        <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-list-item">
+                                            <div class="cabinet-risks-recommendation-clinics-name">
+                                                МНИОИ им. П.А. Герцена
+                                            </div>
+                                            <div class="cabinet-risks-recommendation-clinics-desc">
+                                                2-й Боткинский пр., д.3
+                                            </div>
+                                        </a>
 
-                                    <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-pop-item">
-                                        <div class="cabinet-risks-recommendation-clinics-name">
-                                            РОНЦ им. Н.Н. Блохина
-                                        </div>
-                                        <div class="cabinet-risks-recommendation-clinics-desc">
-                                            Каширское шоссе, дом 23
-                                        </div>
-                                    </a>
+                                        <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-list-item">
+                                            <div class="cabinet-risks-recommendation-clinics-name">
+                                                РОНЦ им. Н.Н. Блохина
+                                            </div>
+                                            <div class="cabinet-risks-recommendation-clinics-desc">
+                                                Каширское шоссе, дом 23
+                                            </div>
+                                        </a>
 
-                                    <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-pop-item">
-                                        <div class="cabinet-risks-recommendation-clinics-name">
-                                            Московская городская онкологическая больница № 62
-                                        </div>
-                                        <div class="cabinet-risks-recommendation-clinics-desc">
-                                            п/о Степановское, поселок Истра, 27
-                                        </div>
-                                    </a>
+                                        <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-list-item">
+                                            <div class="cabinet-risks-recommendation-clinics-name">
+                                                Московская городская онкологическая больница № 62
+                                            </div>
+                                            <div class="cabinet-risks-recommendation-clinics-desc">
+                                                п/о Степановское, поселок Истра, 27
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                             <div class="cabinet-risks-recommendation-button">
@@ -293,49 +333,51 @@
                                 Октябрь 2018
                             </div>
                             <div class="cabinet-risks-recommendation-clinics">
-                                <a href="#risk-4-clinics" data-toggle data-toggle-self-deactive>
+                                <a data-tooltip data-html="risk-4-clinics" data-position="bottom" data-trigger="click" data-arrow="true">
                                     <?php include "images/icon-geomarker.svg"; ?>
                                     <span class="link-dotted">
                                         Список клиник
                                     </span>
                                 </a>
 
-                                <div id="risk-4-clinics" class="cabinet-risks-recommendation-clinics-pop">
-                                    <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-pop-item">
-                                        <div class="cabinet-risks-recommendation-clinics-name">
-                                            МРНЦ им. А.Ф.Цыба
-                                        </div>
-                                        <div class="cabinet-risks-recommendation-clinics-desc">
-                                            Обнинск, ул.Королева, д.4
-                                        </div>
-                                    </a>
+                                <div id="risk-4-clinics" style="display: none">
+                                    <div class="cabinet-risks-recommendation-clinics-list">
+                                        <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-list-item">
+                                            <div class="cabinet-risks-recommendation-clinics-name">
+                                                МРНЦ им. А.Ф.Цыба
+                                            </div>
+                                            <div class="cabinet-risks-recommendation-clinics-desc">
+                                                Обнинск, ул.Королева, д.4
+                                            </div>
+                                        </a>
 
-                                    <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-pop-item">
-                                        <div class="cabinet-risks-recommendation-clinics-name">
-                                            МНИОИ им. П.А. Герцена
-                                        </div>
-                                        <div class="cabinet-risks-recommendation-clinics-desc">
-                                            2-й Боткинский пр., д.3
-                                        </div>
-                                    </a>
+                                        <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-list-item">
+                                            <div class="cabinet-risks-recommendation-clinics-name">
+                                                МНИОИ им. П.А. Герцена
+                                            </div>
+                                            <div class="cabinet-risks-recommendation-clinics-desc">
+                                                2-й Боткинский пр., д.3
+                                            </div>
+                                        </a>
 
-                                    <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-pop-item">
-                                        <div class="cabinet-risks-recommendation-clinics-name">
-                                            РОНЦ им. Н.Н. Блохина
-                                        </div>
-                                        <div class="cabinet-risks-recommendation-clinics-desc">
-                                            Каширское шоссе, дом 23
-                                        </div>
-                                    </a>
+                                        <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-list-item">
+                                            <div class="cabinet-risks-recommendation-clinics-name">
+                                                РОНЦ им. Н.Н. Блохина
+                                            </div>
+                                            <div class="cabinet-risks-recommendation-clinics-desc">
+                                                Каширское шоссе, дом 23
+                                            </div>
+                                        </a>
 
-                                    <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-pop-item">
-                                        <div class="cabinet-risks-recommendation-clinics-name">
-                                            Московская городская онкологическая больница № 62
-                                        </div>
-                                        <div class="cabinet-risks-recommendation-clinics-desc">
-                                            п/о Степановское, поселок Истра, 27
-                                        </div>
-                                    </a>
+                                        <a href="#" target="_blank" class="cabinet-risks-recommendation-clinics-list-item">
+                                            <div class="cabinet-risks-recommendation-clinics-name">
+                                                Московская городская онкологическая больница № 62
+                                            </div>
+                                            <div class="cabinet-risks-recommendation-clinics-desc">
+                                                п/о Степановское, поселок Истра, 27
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                             <div class="cabinet-risks-recommendation-button">

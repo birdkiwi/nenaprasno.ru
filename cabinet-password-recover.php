@@ -31,6 +31,14 @@
                     Модальное окно «Регистрация»
                 </a>
                 <br>
+                <a href="#modal-recover" data-fancybox data-src="#modal-recover">
+                    Модальное окно «Восстановление пароля»
+                </a>
+                <br>
+                <a href="#modal-recover-complete" data-fancybox data-src="#modal-recover-complete">
+                    Модальное окно «Восстановление пароля успешно»
+                </a>
+                <br>
                 <a href="#modal-thankyou" data-fancybox data-src="#modal-thankyou">
                     Модальное окно «Спасибо»
                 </a>
@@ -68,10 +76,10 @@
                         </form>
 
                         <div class="modal-window-sublinks">
-                            <a href="#">
+                            <a href="#modal-recover" data-fancybox data-src="#modal-recover">
                                 Забыли пароль?
                             </a>
-                            <a href="#register-login" data-fancybox data-src="#register-login">
+                            <a href="#modal-register" data-fancybox data-src="#modal-register">
                                 Регистрация
                             </a>
                         </div>
@@ -164,6 +172,60 @@
                     </div>
                 </div>
 
+                <div style="display: none;" class="modal-window modal-window-thankyou" id="modal-thankyou">
+                    <div class="modal-window-padding">
+                        <div class="modal-window-thankyou-icon"></div>
+                        <div class="modal-window-thankyou-title">
+                            Спасибо
+                        </div>
+                        <div class="modal-window-thankyou-desc">
+                            Присоединяйтесь к проектам Фонда профилактики рака - нам нужна ваша поддержка!
+                        </div>
+                        <button class="button button-blue button-round button-block">В личный кабинет</button>
+                    </div>
+                </div>
+
+                <div style="display: none;" class="modal-window modal-window-recover" id="modal-recover">
+                    <div class="modal-window-padding">
+                        <div class="modal-window-title">
+                            Восстановление пароля
+                        </div>
+
+                        <div class="modal-window-subtitle">
+                            Введите ваш e-mail адрес ниже и мы поможем вам
+                        </div>
+
+                        <form action="#" method="POST" class="modal-window-form" autocomplete="off">
+                            <div class="modal-window-control">
+                                <label class="modal-window-label">
+                                    E-mail
+                                </label>
+                                <input type="email" name="login" required class="modal-window-input" placeholder="Введите e-mail адрес">
+                            </div>
+
+                            <div class="modal-window-control">
+                                <button type="submit" class="button button-blue button-round button-block">
+                                    Восстановить пароль
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div style="display: none;" class="modal-window modal-window-recover" id="modal-recover-complete">
+                    <div class="modal-window-padding">
+                        <div class="modal-window-title">
+                            Восстановление пароля
+                        </div>
+
+                        <div class="modal-window-recover-complete-icon"></div>
+
+                        <div class="modal-window-recover-complete-desc">
+                            Ссылка на восстановление пароля отправлена на e-mail asd@asd.neverland
+                        </div>
+                    </div>
+                </div>
+
                 <form action="#" method="POST" class="cabinet-profile">
                     <div class="cabinet-profile-card m-t-lg m-b-lg" style="max-width: 570px; margin-left: auto; margin-right: auto;">
                         <div class="cabinet-profile-title">
@@ -187,7 +249,6 @@
                         </div>
                     </div>
                 </form>
-
             </div>
         </div>
     </div>

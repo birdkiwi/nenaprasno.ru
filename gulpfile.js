@@ -34,6 +34,7 @@ var jsFiles = [
         './node_modules/inputmask//dist/jquery.inputmask.bundle.js',
         './node_modules/flatpickr/dist/flatpickr.js',
         './node_modules/flatpickr/dist/l10n/ru.js',
+        './node_modules/tippy.js/dist/tippy.js',
         './js/components/**/*.js',
         './js/scripts.js'
     ],
