@@ -5,6 +5,21 @@
   border-radius: 3px;
   font-size: 17px;
   padding: 11px 15px;
+  box-shadow: none;
+
+  &:focus  {
+    border-color: @c-blue;
+
+    &:invalid {
+      background-color: #ffe2f4;
+      border-color: #FF6666;
+    }
+  }
+}
+
+.form-input-block {
+  display: block;
+  width: 100%;
 }
 
 /*
@@ -142,6 +157,66 @@
         &::before {
           border-color: #00ADF1;
         }
+      }
+    }
+  }
+}
+
+.form-control-radio-tab {
+  text-align: center;
+  font-size: 17px;
+
+  input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+  }
+
+  label {
+    display: block;
+    color: #666666;
+    border: 1px solid #D4D4D4;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 11px 15px;
+    cursor: pointer;
+    transition: all 200ms;
+  }
+
+  input[type="radio"] {
+    &:checked + label {
+      background-color: #fff;
+      color: @c-blue;
+      transition: all 200ms;
+    }
+
+    &:focus + label {
+      border-color: @c-blue;
+    }
+  }
+}
+
+.form-control-radio-tabs {
+  display: inline-flex;
+
+  .form-control-radio-tab {
+    flex: 1 1 auto;
+    display: block;
+
+    label {
+      border-left: none;
+    }
+
+    &:first-child {
+      label {
+        border-left: 1px solid #D4D4D4;
+        border-radius: 3px 0 0 3px;
+      }
+    }
+
+    &:last-child {
+      label {
+        border-radius: 0 3px 3px 0;
       }
     }
   }

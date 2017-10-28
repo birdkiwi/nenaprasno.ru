@@ -28,9 +28,12 @@ gulp.task('less', function() {
 });
 
 var jsFiles = [
-        './bower_components/jquery/dist/jquery.js',
-        './bower_components/bxslider-4/dist/jquery.bxslider.js',
-        './bower_components/fancybox/dist/jquery.fancybox.js',
+        './node_modules/jquery/dist/jquery.js',
+        './node_modules/bxslider/dist/jquery.bxslider.js',
+        './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
+        './node_modules/inputmask//dist/jquery.inputmask.bundle.js',
+        './node_modules/flatpickr/dist/flatpickr.js',
+        './node_modules/flatpickr/dist/l10n/ru.js',
         './js/components/**/*.js',
         './js/scripts.js'
     ],

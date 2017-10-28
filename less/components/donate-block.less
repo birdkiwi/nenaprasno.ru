@@ -148,7 +148,7 @@
 
   input[type="radio"] {
     position: absolute;
-    visibility: hidden;
+    opacity: 0;
   }
 
   label {
@@ -162,10 +162,16 @@
     transition: all 200ms;
   }
 
-  input[type="radio"]:checked + label {
-    background-color: #44B8FD;
-    color: #fff;
-    transition: all 200ms;
+  input[type="radio"] {
+    &:checked + label {
+      background-color: #44B8FD;
+      color: #fff;
+      transition: all 200ms;
+    }
+
+    &:focus + label {
+      border-color: @c-blue;
+    }
   }
 }
 

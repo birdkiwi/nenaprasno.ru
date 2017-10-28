@@ -7,9 +7,15 @@
   border: 1px solid;
   transition: background-color 200ms, color 200ms;
 
-  &:hover {
+  &:hover,
+  &:focus {
     transition: background-color 200ms, color 200ms;
   }
+}
+
+.button-block {
+  display: block;
+  width: 100%;
 }
 
 .button-small {
@@ -31,9 +37,21 @@
   color: #fff;
   border-color: @c-blue;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: lighten(@c-blue, 10%);
     color: #fff;
+  }
+}
+
+.button-white {
+  background-color: #fff;
+  color: @c-blue;
+
+  &:hover,
+  &:focus {
+    background-color: #f7f7f7;
+    color: @c-blue;
   }
 }
 
@@ -42,7 +60,8 @@
   color: #00ADF1;
   border-color: #00ADF1;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: #00ADF1;
     color: #fff;
   }
@@ -53,7 +72,8 @@
   color: #918F8E;
   border-color: #CFCECB;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: #CFCECB;
     color: #fff;
   }
@@ -64,7 +84,8 @@
   border-color: #51C655;
   color: #fff;
 
-  &:hover {
+  &:hover,
+  &:focus {
     color: #fff;
     background-color: lighten(#51C655, 10%);
   }
@@ -75,7 +96,8 @@
   border-color: @c-orange;
   color: #fff;
 
-  &:hover {
+  &:hover,
+  &:focus {
     color: #fff;
     background-color: lighten(@c-orange, 10%);
     border-color: lighten(@c-orange, 10%);
@@ -87,7 +109,8 @@
   border-color: @c-red;
   color: #fff;
 
-  &:hover {
+  &:hover,
+  &:focus {
     color: #fff;
     background-color: lighten(@c-red, 10%);
     border-color: lighten(@c-red, 10%);
