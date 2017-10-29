@@ -174,7 +174,9 @@
 
                 <div style="display: none;" class="modal-window modal-window-thankyou" id="modal-thankyou">
                     <div class="modal-window-padding">
-                        <div class="modal-window-thankyou-icon"></div>
+                        <div class="modal-window-thankyou-icon">
+                            <img src="images/icon-registration-success.svg" alt="">
+                        </div>
                         <div class="modal-window-thankyou-title">
                             Спасибо
                         </div>
@@ -218,7 +220,9 @@
                             Восстановление пароля
                         </div>
 
-                        <div class="modal-window-recover-complete-icon"></div>
+                        <div class="modal-window-recover-complete-icon">
+                            <img src="images/icon-password-recover-success.svg" alt="">
+                        </div>
 
                         <div class="modal-window-recover-complete-desc">
                             Ссылка на восстановление пароля отправлена на e-mail asd@asd.neverland
