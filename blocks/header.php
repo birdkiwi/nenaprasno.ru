@@ -12,9 +12,6 @@
         </div>
         <div class="main-header-right">
             <div class="main-header-contacts phone-col">
-                <div class="main-header-contacts-title">
-                    Связаться с нами
-                </div>
                 <a href="#" class="main-header-contacts-phone">
                     <img src="images/call-answer.svg">
                     +7 812 316-34-34
@@ -27,13 +24,9 @@
                 </a>
             </div>
 
-            <div class="main-header-buttons">
-            <!--
-                <div href="#" class="main-header-button-login">
-                    <a href="#" class="link-dotted">Вход</a> / <a href="#" class="link-dotted">Регистрация</a>
-                </div>
-            -->
+            <div class="main-header-separator"></div>
 
+            <div class="main-header-buttons">
                 <div class="social-buttons">
                     <a href="#" target="_blank" title="Вконтакте">
                         <?php include "images/icon-social-vk.svg"; ?>
@@ -45,6 +38,13 @@
                         <?php include "images/icon-social-twitter.svg"; ?>
                     </a>
                 </div>
+            </div>
+
+            <div class="main-header-separator"></div>
+
+            <div href="#" class="main-header-button-login">
+                <a href="#">Регистрация</a>
+                <a href="#">Вход</a>
             </div>
         </div>  
     </div>
