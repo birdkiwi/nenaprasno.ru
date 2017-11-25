@@ -42,7 +42,7 @@
 
             <div class="main-header-separator"></div>
 
-            <div href="#" class="main-header-button-login">
+            <div class="main-header-button-login">
                 <a href="#">Регистрация</a>
                 <a href="#">Вход</a>
             </div>
