@@ -59,6 +59,11 @@
 
 .logotypes-block-slider-prev {
   left: 0;
+  transform: translateX(-100%);
+
+  @media (max-width: 1300px) {
+    transform: none;
+  }
 
   svg {
     margin-left: 20px;
@@ -67,6 +72,11 @@
 
 .logotypes-block-slider-next {
   right: 0;
+  transform: translateX(100%);
+
+  @media (max-width: 1300px) {
+    transform: none;
+  }
 
   svg {
     margin-right: 20px;

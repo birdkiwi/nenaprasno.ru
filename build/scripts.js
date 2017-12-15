@@ -26154,18 +26154,6 @@ return tippy$2;
             headerSlider.reloadSlider();
         });
     });
-
-    $('.js-header-about-slider').each(function () {
-        var headerSliderAbout = $(this).bxSlider({
-            infiniteLoop: true,
-            pager: false,
-            controls: true
-        });
-
-        $(window).resize(function(){
-            headerSliderAbout.reloadSlider();
-        });
-    });
 })();
 (function() {
     $('.js-logotypes-slider').each(function () {

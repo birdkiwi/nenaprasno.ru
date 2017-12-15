@@ -114,35 +114,7 @@
                 </div>
             </div>
 
-            <div class="header-slider-about-slider">
-                <div class="js-header-about-slider">
-                    <div class="header-slider-about-slider-item">
-                        <div class="header-slider-about-num">1</div>
-                        Пройдите простой
-                        тест и узнайте свой
-                        риск рака
-                    </div>
-                    <div class="header-slider-about-slider-item">
-                        <div class="header-slider-about-num">2</div>
-                        Получите
-                        индивидуальный
-                        график обследований
-                    </div>
-                    <div class="header-slider-about-slider-item">
-                        <div class="header-slider-about-num">3</div>
-                        Запишитесь в один
-                        клик в проверенную
-                        клинику
-                    </div>
-                    <div class="header-slider-about-slider-item">
-                        <div class="header-slider-about-num">4</div>
-                        Получайте регулярные
-                        напоминания
-                        о необходимых
-                        обследованиях
-                    </div>
-                </div>
-
+            <div class="header-slider-about-mobile">
                 <a href="#" class="button button-orange button-round">Пройти тест</a>
             </div>
         </div>
